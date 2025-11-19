@@ -48,7 +48,6 @@
       <br>
       <div style="height:80px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
         <img src="https://logo.clearbit.com/xidian.edu.cn" width="80" alt="Xidian University Logo">
-        <b>Xidian University</b>
       </div>
       <p align="center">Background in communications and information-related engineering. （通信与信息工程相关背景）</p>
     </td>
@@ -125,24 +124,24 @@ A selection of projects I'm actively maintaining or experimenting with.
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/FastQToys">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en" alt="FastQToys"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en" alt="FastQToys" height="150"/>
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/CleanBookmarks">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en" alt="CleanBookmarks"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en" alt="CleanBookmarks" height="150"/>
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/Demo-gzip">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en" alt="Demo-gzip"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en" alt="Demo-gzip" height="150"/>
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/Demo-htop">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=en" alt="Demo-htop"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=en" alt="Demo-htop" height="150"/>
       </a>
     </td>
   </tr>
