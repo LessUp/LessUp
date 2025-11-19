@@ -12,14 +12,13 @@
 
   <br/>
 
-  <!-- 2. Optimized Stats Badges with distinct colors -->
-  <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="github followers" />
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="github stars" />
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="profile views" />
-  &nbsp;
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=555555&right_color=0077b6" alt="Visitor Count" />
+  <!-- 2. Dynamic "Card" Style Badges -->
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=for-the-badge&color=2ea44f&logo=github" alt="github followers" />
+    <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=for-the-badge&color=dbab09&logo=github" alt="github stars" />
+    <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=for-the-badge" alt="profile views" />
+    <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=555555&right_color=0077b6&left_text=Visitors" alt="Visitor Count" />
+  </div>
 </div>
 
 <br/>
@@ -38,43 +37,42 @@
 
 ---
 
-### 🎓 Education & 💼 Experience / 教育与经历
+### 🎓 Education & 💼 Experience
 
-<!-- 3. Improved Layout: Split into rows for better alignment -->
-<table width="100%">
-  <thead>
+<!-- 3. Card-like Layout (No Borders) -->
+<div align="center">
+  <table border="0" width="90%">
     <tr>
-      <th width="50%" align="center"><h3>🎓 Education</h3></th>
-      <th width="50%" align="center"><h3>💼 Experience</h3></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <!-- Logos Row: Fixed height for alignment -->
-      <td align="center" valign="middle" height="100">
-        <div style="height:100px; display:flex; align-items:center; justify-content:center;">
-           <img src="https://logo.clearbit.com/xidian.edu.cn" height="60" alt="Xidian University Logo" style="max-width: 100%; filter: hue-rotate(140deg) saturate(150%);">
+      <td width="45%" align="center" valign="top" style="border: none;">
+        <h3>🎓 Education</h3>
+        <br>
+        <img src="https://logo.clearbit.com/xidian.edu.cn" height="85" alt="Xidian University" style="filter: hue-rotate(140deg) saturate(200%); margin-bottom: 10px;">
+        <br>
+        <b>Xidian University</b>
+        <p style="font-size: 14px; color: #666;">
+          Background in communications engineering.<br>
+          （通信与信息工程相关背景）
+        </p>
+      </td>
+      <td width="10%" style="border: none;"></td>
+      <td width="45%" align="center" valign="top" style="border: none;">
+        <h3>💼 Experience</h3>
+        <br>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 20px; height: 85px;">
+          <img src="https://logo.clearbit.com/mindray.com" height="30" alt="Mindray"/>
+          <img src="https://logo.clearbit.com/zego.im" height="30" alt="ZEGO"/>
+          <img src="https://logo.clearbit.com/genomics.cn" height="30" alt="BGI"/>
         </div>
-      </td>
-      <td align="center" valign="middle" height="100">
-         <div style="height:100px; display:flex; align-items:center; justify-content:center; gap: 15px;">
-          <img src="https://logo.clearbit.com/mindray.com" height="35" alt="Mindray Logo"/>
-          <img src="https://logo.clearbit.com/zego.im" height="35" alt="ZEGO Logo"/>
-          <img src="https://logo.clearbit.com/genomics.cn" height="35" alt="BGI Logo"/>
-        </div>
-      </td>
-    </tr>
-    <tr style="background-color: transparent;">
-      <!-- Descriptions Row: Top aligned -->
-      <td align="center" valign="top">
-        <p>Background in communications and information-related engineering.<br>（通信与信息工程相关背景）</p>
-      </td>
-      <td align="center" valign="top">
-        <p>Worked on medical imaging, real-time audio/video, and genomic data related engineering.<br>（参与医疗、音视频与基因数据等方向实践）</p>
+        <br>
+        <b>Engineering Practice</b>
+        <p style="font-size: 14px; color: #666;">
+           Medical imaging, RTC & Genomic data.<br>
+          （医疗、音视频与基因数据工程）
+        </p>
       </td>
     </tr>
-  </tbody>
-</table>
+  </table>
+</div>
 
 ---
 
@@ -86,21 +84,17 @@ Main technologies I work with (English first, with brief Chinese hints):
 
 | **Category** | **Technologies** |
 | :--- | :--- |
-| **Languages / 语言** | <img src="https://skillicons.dev/icons?i=cpp,rust,python,bash,go,lua" alt="Languages"/> |
-| **AI &amp; Data / 人工智能与数据** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,numpy,pandas" alt="AI & Data"/> |
-| **System &amp; Infra / 系统与基础设施** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx" alt="System & Infra"/> |
-| **Web &amp; Others / Web 与其他** | <img src="https://skillicons.dev/icons?i=html,css,js,vite,vue" alt="Web & Others"/> |
+| **Languages** | <img src="https://skillicons.dev/icons?i=cpp,rust,python,bash,go,lua" alt="Languages"/> |
+| **AI &amp; Data** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,numpy,pandas" alt="AI & Data"/> |
+| **System** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx" alt="System & Infra"/> |
+| **Web** | <img src="https://skillicons.dev/icons?i=html,css,js,vite,vue" alt="Web & Others"/> |
 
 ---
 
 ### 📊 GitHub Stats / 数据概览
 
-Some basic GitHub stats that reflect recent activity and language preferences.
-
-下面的统计图简单展示了近期的活跃度与语言占比。
-
-<!-- 4. Beautified Activity & Streak: Using 'transparent' theme with custom colors or a clean theme -->
 <div align="center">
+  <!-- 4. Floating Cards Layout -->
   <p>
     <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=transparent&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6" alt="LessUp's GitHub stats" />
     <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=transparent&locale=en&hide_border=true&title_color=0077b6&text_color=555555" alt="Top Languages" />
@@ -111,58 +105,32 @@ Some basic GitHub stats that reflect recent activity and language preferences.
 
 ### 📈 Activity & Streak / 活跃度与连击
 
-Contribution streaks and activity graph offer a high-level view of my coding rhythm.
-
-下方的连击与活动图仅作为整体活跃度的直观展示。
-
 <div align="center">
   <p>
-    <!-- Updated theme for streak stats to match -->
     <img src="https://streak-stats.demolab.com?user=LessUp&theme=transparent&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=00b4d8&ring=00b4d8&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=999999" alt="GitHub Streak" />
   </p>
   <p>
-    <!-- Updated color for activity graph -->
     <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
   </p>
 </div>
 
 ### 📂 Active Projects / 正在进行的项目
 
-A selection of projects I'm actively maintaining or experimenting with.
-
-下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。
-
-<!-- 5. Projects: Removed shadows (hide_border=true) and improved alignment possibilities -->
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/FastQToys">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="FastQToys" />
-      </a>
-      <p>🧬 高性能 FASTQ 文件处理与分析工具集</p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/WebRTC">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=WebRTC&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="WebRTC" />
-      </a>
-      <p>📡 基于Go的WebRTC信令服务与浏览器音视频通话demo</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/YOLO-Toys">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=YOLO-Toys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="YOLO-Toys" />
-      </a>
-      <p>🎯 基于 FastAPI 与 YOLOv8 的实时视频流目标检测 demo</p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/MetaHuman">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=MetaHuman&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="MetaHuman" />
-      </a>
-      <p>🧑‍🚀 集成 3D 建模、语音交互与行为控制的数字人平台</p>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <!-- 5. Responsive Project Cards Grid (No Table) -->
+  <a href="https://github.com/LessUp/FastQToys">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="FastQToys" height="150" />
+  </a>
+  <a href="https://github.com/LessUp/WebRTC">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=WebRTC&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="WebRTC" height="150" />
+  </a>
+  <a href="https://github.com/LessUp/YOLO-Toys">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=YOLO-Toys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="YOLO-Toys" height="150" />
+  </a>
+  <a href="https://github.com/LessUp/MetaHuman">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=MetaHuman&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="MetaHuman" height="150" />
+  </a>
+</div>
 
 ---
 
@@ -172,7 +140,6 @@ Feel free to reach out for collaboration, technical discussions, or open-source 
 
 欢迎通过邮箱与我交流技术想法、合作机会或开源项目。
 
-<!-- 6. Beautified Email Badge: Neutral Grey -->
 <div align="left">
   <a href="mailto:jiashuai.shi@qq.com">
     <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-FF5722?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
