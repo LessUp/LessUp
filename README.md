@@ -155,8 +155,8 @@ Feel free to reach out for collaboration, technical discussions, or open-source 
 
 欢迎通过邮箱与我交流技术想法、合作机会或开源项目。
 
-<div align="center">
+<div align="left">
   <a href="mailto:jiashuai.shi@qq.com">
-    <img src="https://img.shields.io/badge/Email-jiashuai.shi@qq.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/email-jiashuai.shi@qq.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
