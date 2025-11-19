@@ -116,21 +116,32 @@ A selection of projects I'm actively maintaining or experimenting with.
 
 下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。更多项目可以在我的 GitHub 仓库列表中查看。
 
-<div align="center">
-  <a href="https://github.com/LessUp/FastQToys">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en" alt="FastQToys"/>
-  </a>
-  <a href="https://github.com/LessUp/CleanBookmarks">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en" alt="CleanBookmarks"/>
-  </a>
-  <br/>
-  <a href="https://github.com/LessUp/Demo-gzip">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en" alt="Demo-gzip"/>
-  </a>
-  <a href="https://github.com/LessUp/Demo-htop">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=en" alt="Demo-htop"/>
-  </a>
-</div>
+<table width="100%">
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/LessUp/FastQToys">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en" alt="FastQToys"/>
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/LessUp/CleanBookmarks">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en" alt="CleanBookmarks"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top">
+      <a href="https://github.com/LessUp/Demo-gzip">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en" alt="Demo-gzip"/>
+      </a>
+    </td>
+    <td align="center" valign="top">
+      <a href="https://github.com/LessUp/Demo-htop">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=en" alt="Demo-htop"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
