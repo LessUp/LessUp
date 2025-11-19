@@ -46,21 +46,23 @@
     <td width="50%" align="center" valign="top">
       <h3>🎓 Education</h3>
       <br>
-      <img src="https://logo.clearbit.com/xidian.edu.cn" width="80" alt="Xidian University Logo"><br>
-      <b>Xidian University</b><br>
+      <div style="height:80px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
+        <img src="https://logo.clearbit.com/xidian.edu.cn" width="80" alt="Xidian University Logo">
+        <b>Xidian University</b>
+      </div>
       <p align="center">Background in communications and information-related engineering. （通信与信息工程相关背景）</p>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>💼 Experience</h3>
       <br>
       <!-- Company Badges -->
-      <p align="center">
+      <div style="height:80px; display:flex; align-items:center; justify-content:center;">
         <img src="https://logo.clearbit.com/mindray.com" height="40" alt="Mindray Logo"/>
         &nbsp;&nbsp;
         <img src="https://logo.clearbit.com/zego.im" height="40" alt="ZEGO Logo"/>
         &nbsp;&nbsp;
         <img src="https://logo.clearbit.com/bgi.com" height="40" alt="BGI Logo"/>
-      </p>
+      </div>
       <p align="center">Worked on medical imaging, real-time audio/video, and genomic data related engineering. （参与医疗、音视频与基因数据等方向实践）</p>
     </td>
   </tr>
