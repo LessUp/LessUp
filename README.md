@@ -1,5 +1,5 @@
 <div align="center">
-  <!-- 1. Header: Lighter, cleaner gradient banner -->
+  <!-- 1. Header: Clean Gradient -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=35&desc=AI%20Infrastructure%20&%20HPC%20Developer&descAlignY=65&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
 
   <br/>
@@ -12,13 +12,15 @@
 
   <br/>
 
-  <!-- 2. Dynamic "Card" Style Badges -->
-  <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=for-the-badge&color=2ea44f&logo=github" alt="github followers" />
-    <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=for-the-badge&color=dbab09&logo=github" alt="github stars" />
-    <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=for-the-badge" alt="profile views" />
-    <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=555555&right_color=0077b6&left_text=Visitors" alt="Visitor Count" />
-  </div>
+  <!-- 2. Badges: Uniform Flat-Square Style -->
+  <!-- Followers (Green) | Stars (Yellow/Orange) | Views (Blue) | Visitors (Red/Orange) -->
+  <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="Followers" />
+  &nbsp;
+  <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="Stars" />
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="Views" />
+  &nbsp;
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=555555&right_color=e76f51&left_text=Visitors" alt="Visitors" />
 </div>
 
 <br/>
@@ -39,40 +41,44 @@
 
 ### 🎓 Education & 💼 Experience
 
-<!-- 3. Card-like Layout (No Borders) -->
-<div align="center">
-  <table border="0" width="90%">
+<table width="100%">
+  <thead>
     <tr>
-      <td width="45%" align="center" valign="top" style="border: none;">
-        <h3>🎓 Education</h3>
-        <br>
-        <img src="https://logo.clearbit.com/xidian.edu.cn" height="85" alt="Xidian University" style="filter: hue-rotate(140deg) saturate(200%); margin-bottom: 10px;">
-        <br>
-        <b>Xidian University</b>
-        <p style="font-size: 14px; color: #666;">
-          Background in communications engineering.<br>
-          （通信与信息工程相关背景）
-        </p>
+      <th width="50%" align="center"><h3>🎓 Education</h3></th>
+      <th width="50%" align="center"><h3>💼 Experience</h3></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Education Logo -->
+      <td align="center" valign="middle" height="120">
+        <img src="https://logo.clearbit.com/xidian.edu.cn" height="70" alt="Xidian University"/>
       </td>
-      <td width="10%" style="border: none;"></td>
-      <td width="45%" align="center" valign="top" style="border: none;">
-        <h3>💼 Experience</h3>
-        <br>
-        <div style="display: flex; justify-content: center; align-items: center; gap: 20px; height: 85px;">
-          <img src="https://logo.clearbit.com/mindray.com" height="30" alt="Mindray"/>
-          <img src="https://logo.clearbit.com/zego.im" height="30" alt="ZEGO"/>
-          <img src="https://logo.clearbit.com/genomics.cn" height="30" alt="BGI"/>
+      <!-- Experience Logos -->
+      <td align="center" valign="middle" height="120">
+        <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+          <img src="https://logo.clearbit.com/mindray.com" height="40" alt="Mindray"/>
+          <img src="https://logo.clearbit.com/zego.im" height="40" alt="ZEGO"/>
+          <img src="https://logo.clearbit.com/genomics.cn" height="40" alt="BGI"/>
         </div>
-        <br>
-        <b>Engineering Practice</b>
-        <p style="font-size: 14px; color: #666;">
-           Medical imaging, RTC & Genomic data.<br>
-          （医疗、音视频与基因数据工程）
-        </p>
       </td>
     </tr>
-  </table>
-</div>
+    <tr>
+      <!-- Education Details -->
+      <td align="center" valign="top">
+        <b>Xidian University</b>
+        <br>
+        <span style="color: #555; font-size: 13px;">Background in communications engineering.<br>（通信与信息工程相关背景）</span>
+      </td>
+      <!-- Experience Details -->
+      <td align="center" valign="top">
+        <b>Engineering Practice</b>
+        <br>
+        <span style="color: #555; font-size: 13px;">Medical imaging, RTC & Genomic data.<br>（医疗、音视频与基因数据工程）</span>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -94,10 +100,9 @@ Main technologies I work with (English first, with brief Chinese hints):
 ### 📊 GitHub Stats / 数据概览
 
 <div align="center">
-  <!-- 4. Floating Cards Layout -->
   <p>
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=transparent&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6" alt="LessUp's GitHub stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=transparent&locale=en&hide_border=true&title_color=0077b6&text_color=555555" alt="Top Languages" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=ffffff" alt="LessUp's GitHub stats" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=ffffff" alt="Top Languages" />
   </p>
 </div>
 
@@ -107,30 +112,50 @@ Main technologies I work with (English first, with brief Chinese hints):
 
 <div align="center">
   <p>
-    <img src="https://streak-stats.demolab.com?user=LessUp&theme=transparent&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=00b4d8&ring=00b4d8&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=999999" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=ffffff" alt="GitHub Streak" />
   </p>
   <p>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=ffffff&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
   </p>
 </div>
 
 ### 📂 Active Projects / 正在进行的项目
 
-<div align="center">
-  <!-- 5. Responsive Project Cards Grid (No Table) -->
-  <a href="https://github.com/LessUp/FastQToys">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="FastQToys" height="150" />
-  </a>
-  <a href="https://github.com/LessUp/WebRTC">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=WebRTC&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="WebRTC" height="150" />
-  </a>
-  <a href="https://github.com/LessUp/YOLO-Toys">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=YOLO-Toys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="YOLO-Toys" height="150" />
-  </a>
-  <a href="https://github.com/LessUp/MetaHuman">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=MetaHuman&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&description_lines=2" alt="MetaHuman" height="150" />
-  </a>
-</div>
+<!-- Projects Table: Enforcing Grid Layout with Cards -->
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/LessUp/FastQToys">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="FastQToys" />
+      </a>
+      <br/>
+      <sub>🧬 High-performance FASTQ tools / 高性能 FASTQ 处理工具</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/LessUp/WebRTC">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=WebRTC&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="WebRTC" />
+      </a>
+      <br/>
+      <sub>📡 WebRTC Signaling & Demo / 信令服务与通话演示</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/LessUp/YOLO-Toys">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=YOLO-Toys&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="YOLO-Toys" />
+      </a>
+      <br/>
+      <sub>🎯 FastAPI & YOLOv8 Demo / 实时视频流目标检测</sub>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/LessUp/MetaHuman">
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=MetaHuman&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="MetaHuman" />
+      </a>
+      <br/>
+      <sub>🧑‍🚀 Digital Human Platform / 数字人平台</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
