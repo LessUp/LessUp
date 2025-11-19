@@ -1,5 +1,6 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0077b6&height=280&section=header&text=Hi,%20I'm%20LessUp&fontSize=80&animation=fadeIn&fontAlignY=35&desc=AI%20Infrastructure%20&%20HPC%20Developer&descAlignY=55&descAlign=60" width="100%" alt="Header" />
+  <!-- 1. Header: Lighter, cleaner gradient banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=35&desc=AI%20Infrastructure%20&%20HPC%20Developer&descAlignY=65&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
 
   <br/>
 
@@ -11,16 +12,20 @@
 
   <br/>
 
+  <!-- 2. Optimized Stats Badges with distinct colors -->
   <a href="https://github.com/LessUp">
-    <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
+    <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="github followers" />
   </a>
-  <a href="https://github.com/LessUp?tab=followers">
-    <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=blue" alt="github followers" />
-  </a>
+  &nbsp;
   <a href="https://github.com/LessUp?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=orange" alt="github stars" />
+    <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="github stars" />
   </a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp" alt="Visitor Count" />
+  &nbsp;
+  <a href="https://github.com/LessUp">
+    <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="profile views" />
+  </a>
+  &nbsp;
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=595959&right_color=8a2be2" alt="Visitor Count" />
 </div>
 
 <br/>
@@ -41,30 +46,40 @@
 
 ### 🎓 Education & 💼 Experience / 教育与经历
 
+<!-- 3. Improved Layout: Split into rows for better alignment -->
 <table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <h3>🎓 Education</h3>
-      <br>
-      <div style="height:80px; display:flex; flex-direction:column; align-items:center; justify-content:center;">
-        <img src="https://logo.clearbit.com/xidian.edu.cn" width="80" alt="Xidian University Logo">
-      </div>
-      <p align="center">Background in communications and information-related engineering. （通信与信息工程相关背景）</p>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <h3>💼 Experience</h3>
-      <br>
-      <!-- Company Badges -->
-      <div style="height:80px; display:flex; align-items:center; justify-content:center;">
-        <img src="https://logo.clearbit.com/mindray.com" height="40" alt="Mindray Logo"/>
-        &nbsp;&nbsp;
-        <img src="https://logo.clearbit.com/zego.im" height="40" alt="ZEGO Logo"/>
-        &nbsp;&nbsp;
-        <img src="https://logo.clearbit.com/bgi.com" height="40" alt="BGI Logo"/>
-      </div>
-      <p align="center">Worked on medical imaging, real-time audio/video, and genomic data related engineering. （参与医疗、音视频与基因数据等方向实践）</p>
-    </td>
-  </tr>
+  <thead>
+    <tr>
+      <th width="50%" align="center"><h3>🎓 Education</h3></th>
+      <th width="50%" align="center"><h3>💼 Experience</h3></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <!-- Logos Row: Fixed height for alignment -->
+      <td align="center" valign="middle" height="100">
+        <div style="height:100px; display:flex; align-items:center; justify-content:center;">
+           <img src="https://logo.clearbit.com/xidian.edu.cn" height="80" alt="Xidian University Logo" style="max-width: 100%;">
+        </div>
+      </td>
+      <td align="center" valign="middle" height="100">
+         <div style="height:100px; display:flex; align-items:center; justify-content:center; gap: 15px;">
+          <img src="https://logo.clearbit.com/mindray.com" height="35" alt="Mindray Logo"/>
+          <img src="https://logo.clearbit.com/zego.im" height="35" alt="ZEGO Logo"/>
+          <img src="https://logo.clearbit.com/bgi.com" height="35" alt="BGI Logo"/>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <!-- Descriptions Row: Top aligned -->
+      <td align="center" valign="top">
+        <p>Background in communications and information-related engineering.<br>（通信与信息工程相关背景）</p>
+      </td>
+      <td align="center" valign="top">
+        <p>Worked on medical imaging, real-time audio/video, and genomic data related engineering.<br>（参与医疗、音视频与基因数据等方向实践）</p>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ---
@@ -90,10 +105,11 @@ Some basic GitHub stats that reflect recent activity and language preferences.
 
 下面的统计图简单展示了近期的活跃度与语言占比。
 
+<!-- 4. Beautified Activity & Streak: Using 'transparent' theme with custom colors or a clean theme -->
 <div align="center">
   <p>
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=transparent&locale=en&include_all_commits=true&count_private=true" alt="LessUp's GitHub stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=transparent&locale=en&hide_border=true" alt="Top Languages" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=transparent&locale=en&include_all_commits=true&count_private=true&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6" alt="LessUp's GitHub stats" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=transparent&locale=en&hide_border=true&title_color=0077b6&text_color=555555" alt="Top Languages" />
   </p>
 </div>
 
@@ -107,10 +123,12 @@ Contribution streaks and activity graph offer a high-level view of my coding rhy
 
 <div align="center">
   <p>
-    <img src="https://streak-stats.demolab.com?user=LessUp&theme=transparent&locale=en&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" />
+    <!-- Updated theme for streak stats to match -->
+    <img src="https://streak-stats.demolab.com?user=LessUp&theme=transparent&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=0077b6&ring=0077b6&currStreakLabel=0077b6" alt="GitHub Streak" />
   </p>
   <p>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&theme=react&hide_border=true&area=true" alt="GitHub Activity Graph"/>
+    <!-- Updated color for activity graph -->
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&theme=react&hide_border=true&area=true&color=0077b6&line=0077b6&point=white" alt="GitHub Activity Graph"/>
   </p>
 </div>
 
@@ -120,28 +138,29 @@ A selection of projects I'm actively maintaining or experimenting with.
 
 下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。更多项目可以在我的 GitHub 仓库列表中查看。
 
+<!-- 5. Projects: Removed shadows (hide_border=true) and improved alignment possibilities -->
 <table width="100%">
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/FastQToys">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en" alt="FastQToys" height="150"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="FastQToys" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/CleanBookmarks">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en" alt="CleanBookmarks" height="150"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="CleanBookmarks" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/Demo-gzip">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en" alt="Demo-gzip" height="150"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="Demo-gzip" />
       </a>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/Demo-htop">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=en" alt="Demo-htop" height="150"/>
+        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="Demo-htop" />
       </a>
     </td>
   </tr>
@@ -155,8 +174,9 @@ Feel free to reach out for collaboration, technical discussions, or open-source 
 
 欢迎通过邮箱与我交流技术想法、合作机会或开源项目。
 
+<!-- 6. Beautified Email Badge: Neutral Grey -->
 <div align="left">
   <a href="mailto:jiashuai.shi@qq.com">
-    <img src="https://img.shields.io/badge/email-jiashuai.shi@qq.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-444444?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
