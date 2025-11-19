@@ -19,7 +19,7 @@
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="profile views" />
   &nbsp;
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=595959&right_color=8a2be2" alt="Visitor Count" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=555555&right_color=0077b6" alt="Visitor Count" />
 </div>
 
 <br/>
@@ -53,14 +53,14 @@
       <!-- Logos Row: Fixed height for alignment -->
       <td align="center" valign="middle" height="100">
         <div style="height:100px; display:flex; align-items:center; justify-content:center;">
-           <img src="https://logo.clearbit.com/xidian.edu.cn" height="80" alt="Xidian University Logo" style="max-width: 100%;">
+           <img src="https://logo.clearbit.com/xidian.edu.cn" height="60" alt="Xidian University Logo" style="max-width: 100%; filter: hue-rotate(140deg) saturate(150%);">
         </div>
       </td>
       <td align="center" valign="middle" height="100">
          <div style="height:100px; display:flex; align-items:center; justify-content:center; gap: 15px;">
           <img src="https://logo.clearbit.com/mindray.com" height="35" alt="Mindray Logo"/>
           <img src="https://logo.clearbit.com/zego.im" height="35" alt="ZEGO Logo"/>
-          <img src="https://logo.clearbit.com/bgi.com" height="35" alt="BGI Logo"/>
+          <img src="https://logo.clearbit.com/genomics.cn" height="35" alt="BGI Logo"/>
         </div>
       </td>
     </tr>
@@ -130,7 +130,7 @@ Contribution streaks and activity graph offer a high-level view of my coding rhy
 
 A selection of projects I'm actively maintaining or experimenting with.
 
- 下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。
+下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。
 
 <!-- 5. Projects: Removed shadows (hide_border=true) and improved alignment possibilities -->
 <table width="100%">
@@ -175,6 +175,6 @@ Feel free to reach out for collaboration, technical discussions, or open-source 
 <!-- 6. Beautified Email Badge: Neutral Grey -->
 <div align="left">
   <a href="mailto:jiashuai.shi@qq.com">
-    <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-444444?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-FF5722?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
