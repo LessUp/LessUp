@@ -13,17 +13,11 @@
   <br/>
 
   <!-- 2. Optimized Stats Badges with distinct colors -->
-  <a href="https://github.com/LessUp">
-    <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="github followers" />
-  </a>
+  <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="github followers" />
   &nbsp;
-  <a href="https://github.com/LessUp?tab=repositories&sort=stargazers">
-    <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="github stars" />
-  </a>
+  <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="github stars" />
   &nbsp;
-  <a href="https://github.com/LessUp">
-    <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="profile views" />
-  </a>
+  <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="profile views" />
   &nbsp;
   <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=595959&right_color=8a2be2" alt="Visitor Count" />
 </div>
