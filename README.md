@@ -1,9 +1,15 @@
- <h1 align="center">Hi, I'm LessUp</h1>
- <h3 align="center">AI & High-Performance Computing · Developer / Engineer</h3>
- 
- <p align="center">
+ <!-- Enhanced by Cascade -->
+<div align="center">
+
+# Hi, I'm LessUp 👋
+
+### AI & High-Performance Computing · Developer / Engineer
+
+*AI Infrastructure, Data Processing, and High-Performance Computing with a focus on C++/Rust/Python.*
+
+<p align="center">
   <a href="https://github.com/LessUp">
-    <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+    <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0e75b6&style=flat-square" alt="profile views" />
   </a>
   <a href="https://github.com/LessUp?tab=followers">
     <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=social" alt="github followers" />
@@ -13,72 +19,97 @@
   </a>
 </p>
 
----
-
-## 👋 About Me | 关于我
-  - 🇨🇳 / 🌏 位置：Shenzhen, China (UTC+08:00)
-  - 💼 角色：AI & High-Performance Computing Developer / Engineer
-  - 🎯 方向：AI 基础设施、数据处理与高性能计算（偏 C++ / Rust / Python）
-  - 📚 兴趣：高性能计算、系统编程、Rust / C++ 工具开发、自动化脚本与开源项目
+</div>
 
 ---
 
-## 🛠 Tech Stack | 技术栈
+### �️ Tech Stack & Tools
 
-**与当前项目相关的技术栈示意：**
-
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=cpp,python,rust,bash" />
-</p>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=html,css,js" />
-</p>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,docker,git,github,tensorflow,pytorch" />
-</p>
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=vim,vscode,idea" />
-</p>
-
-**按类别简单列出你的技术关键词：**
-
-- **Languages | 编程语言**：C++, Rust, Python, Shell
-- **Systems & Performance | 系统与性能**：高性能文件与数据处理、命令行工具、性能与资源利用率优化（基于 C++ / Rust / Linux 环境）
-- **AI & Data | AI 与数据**：Python 科学计算与数据处理，持续学习和实践深度学习框架（如 PyTorch / TensorFlow）
-- **Tools | 工具链**：Linux, Docker, Git, GitHub, Shell 脚本
-- **Others | 其他**：脚本自动化、小工具开发、浏览器书签与个人效率工具等
+<table width="100%">
+  <tr>
+    <td align="center" width="120">
+      <b>Languages</b>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=cpp,rust,python,bash,go,lua" alt="Languages"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>AI & Data</b>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,numpy,pandas" alt="AI & Data"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>System & Infra</b>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx" alt="System & Infra"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>Web & Others</b>
+    </td>
+    <td align="left">
+      <img src="https://skillicons.dev/icons?i=html,css,js,vite,vue" alt="Web & Others"/>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📊 GitHub Stats | GitHub 统计
+### 📊 GitHub Stats
 
-<p align="center">
+<div align="center">
   <img height="160" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=transparent&locale=cn" alt="LessUp's GitHub stats" />
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=transparent&locale=cn" alt="Top Languages" />
-</p>
-
-<p align="center">
   <img height="160" src="https://streak-stats.demolab.com?user=LessUp&theme=transparent&locale=zh_Hans" alt="GitHub Streak" />
-</p>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&theme=github&hide_border=true&locale=zh-CN" alt="GitHub Activity Graph"/>
+</div>
 
 ---
 
-## 📂 Projects & Repos | 项目与仓库
+### 📂 Pinned Projects
 
-**以下项目与当前 GitHub 主页上 Pinned 的主要仓库对应，可作为 AI + 高性能计算/工具方向的代表作品：**
+<div align="center">
+  <a href="https://github.com/LessUp/FastQToys">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=cn" alt="FastQToys"/>
+  </a>
+  <a href="https://github.com/LessUp/CleanBookmarks">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=cn" alt="CleanBookmarks"/>
+  </a>
+  <a href="https://github.com/LessUp/Demo-gzip">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=cn" alt="Demo-gzip"/>
+  </a>
+  <a href="https://github.com/LessUp/Demo-htop">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=cn" alt="Demo-htop"/>
+  </a>
+</div>
 
-- **[FastQToys](https://github.com/LessUp/FastQToys)**  
-  高性能 FastQ 处理工具，使用 C++ 编写，面向大规模测序数据的批处理与性能优化场景，体现对 IO 与计算性能的关注。
+---
 
-- **[CleanBookmarks](https://github.com/LessUp/CleanBookmarks)**  
-  🧹✨ A Python tool to automatically clean, deduplicate, and intelligently categorize your browser bookmarks using a community-driven rule engine.  
-  🧹✨ 一个基于 Python 的浏览器书签自动清理、去重与智能分类工具，由社区驱动的规则引擎赋能，聚焦个人效率与信息组织。
+### 📫 How to reach me
 
-- **[Demo-gzip](https://github.com/LessUp/Demo-gzip)** · **[Demo-htop](https://github.com/LessUp/Demo-htop)**  
-  一组基于 Rust 的系统编程 / 性能相关 Demo，用于探索底层实现方式与高性能特性，对系统监控与压缩场景进行实验性质的尝试。
+<!-- Please replace with your actual links -->
+<p align="center">
+  <a href="mailto:your-email@example.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  </a>
+  <a href="https://www.linkedin.com/in/your-profile/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://your-blog.com">
+    <img src="https://img.shields.io/badge/Blog-3B7EBF?style=for-the-badge&logo=wordpress&logoColor=white" alt="Blog"/>
+  </a>
+</p>
 
-- **[MiniScripts](https://github.com/LessUp/MiniScripts)**  
-  收集日常使用的 Shell / 脚本小工具，用于自动化常见任务、提高开发与运维效率。
-
-- **[FunnyToys](https://github.com/LessUp/FunnyToys)**  
-  一些基于 HTML 的小玩具与交互实验，用于尝试前端效果与创意想法。
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp" alt="Visitors"/>
+</div>
