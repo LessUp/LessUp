@@ -110,13 +110,11 @@ Contribution streaks and activity graph offer a high-level view of my coding rhy
   </p>
 </div>
 
----
-
 ### 📂 Active Projects / 正在进行的项目
 
-Some projects I'm actively maintaining or experimenting with.
+A selection of projects I'm actively maintaining or experimenting with.
 
-下面是当前在维护或试验的一些项目仓库。
+下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。更多项目可以在我的 GitHub 仓库列表中查看。
 
 <div align="center">
   <a href="https://github.com/LessUp/FastQToys">
@@ -125,6 +123,7 @@ Some projects I'm actively maintaining or experimenting with.
   <a href="https://github.com/LessUp/CleanBookmarks">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en" alt="CleanBookmarks"/>
   </a>
+  <br/>
   <a href="https://github.com/LessUp/Demo-gzip">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en" alt="Demo-gzip"/>
   </a>
