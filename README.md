@@ -134,10 +134,14 @@ A selection of projects I'm actively maintaining or experimenting with.
 
 ---
 
-### 🗺️ Visitor Map / 访客地图
+### 🗺️ Visitor Count / 访客统计
+
+A simple visitor counter for this profile.
+
+一个简单的访客计数器，用来记录该主页的访问次数。
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/LessUp/count.svg" alt="Visitor Count" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp" alt="Visitor Count" />
 </div>
 
 ---
