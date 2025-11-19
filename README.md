@@ -124,11 +124,11 @@ Contribution streaks and activity graph offer a high-level view of my coding rhy
 <div align="center">
   <p>
     <!-- Updated theme for streak stats to match -->
-    <img src="https://streak-stats.demolab.com?user=LessUp&theme=transparent&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=0077b6&ring=0077b6&currStreakLabel=0077b6" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com?user=LessUp&theme=transparent&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=00b4d8&ring=00b4d8&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=999999" alt="GitHub Streak" />
   </p>
   <p>
     <!-- Updated color for activity graph -->
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&theme=react&hide_border=true&area=true&color=0077b6&line=0077b6&point=white" alt="GitHub Activity Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
   </p>
 </div>
 
