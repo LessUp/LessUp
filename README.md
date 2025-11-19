@@ -20,6 +20,7 @@
   <a href="https://github.com/LessUp?tab=repositories&sort=stargazers">
     <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=orange" alt="github stars" />
   </a>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp" alt="Visitor Count" />
 </div>
 
 <br/>
@@ -45,20 +46,22 @@
     <td width="50%" align="center" valign="top">
       <h3>🎓 Education</h3>
       <br>
-      <img src="https://upload.wikimedia.org/wikipedia/en/a/a6/Xidian_University_logo.svg" width="80" alt="Xidian University Logo"><br>
+      <img src="https://logo.clearbit.com/xidian.edu.cn" width="80" alt="Xidian University Logo"><br>
       <b>Xidian University</b><br>
-      <p>Background in communications and information-related engineering. （通信与信息工程相关背景）</p>
+      <p align="center">Background in communications and information-related engineering. （通信与信息工程相关背景）</p>
     </td>
     <td width="50%" align="center" valign="top">
       <h3>💼 Experience</h3>
       <br>
       <!-- Company Badges -->
-      <img src="https://img.shields.io/badge/Mindray-BC2025?style=for-the-badge&logo=mindray&logoColor=white" alt="Mindray"><br>
-      <br>
-      <img src="https://img.shields.io/badge/ZEGO-0066FF?style=for-the-badge&logo=zego&logoColor=white" alt="ZEGO"><br>
-      <br>
-      <img src="https://img.shields.io/badge/BGI-009944?style=for-the-badge&logo=bgi&logoColor=white" alt="BGI">
-      <p>Worked on medical imaging, real-time audio/video, and genomic data related engineering. （参与医疗、音视频与基因数据等方向实践）</p>
+      <p align="center">
+        <img src="https://logo.clearbit.com/mindray.com" height="40" alt="Mindray Logo"/>
+        &nbsp;&nbsp;
+        <img src="https://logo.clearbit.com/zego.im" height="40" alt="ZEGO Logo"/>
+        &nbsp;&nbsp;
+        <img src="https://logo.clearbit.com/bgi.com" height="40" alt="BGI Logo"/>
+      </p>
+      <p align="center">Worked on medical imaging, real-time audio/video, and genomic data related engineering. （参与医疗、音视频与基因数据等方向实践）</p>
     </td>
   </tr>
 </table>
@@ -142,18 +145,6 @@ A selection of projects I'm actively maintaining or experimenting with.
     </td>
   </tr>
 </table>
-
----
-
-### 🗺️ Visitor Count / 访客统计
-
-A simple visitor counter for this profile.
-
-一个简单的访客计数器，用来记录该主页的访问次数。
-
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp" alt="Visitor Count" />
-</div>
 
 ---
 
