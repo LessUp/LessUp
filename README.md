@@ -118,24 +118,24 @@ A selection of projects I'm actively maintaining or experimenting with.
 
 <table width="100%">
   <tr>
-    <td align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/FastQToys">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en" alt="FastQToys"/>
       </a>
     </td>
-    <td align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/CleanBookmarks">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=CleanBookmarks&theme=transparent&locale=en" alt="CleanBookmarks"/>
       </a>
     </td>
   </tr>
   <tr>
-    <td align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/Demo-gzip">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-gzip&theme=transparent&locale=en" alt="Demo-gzip"/>
       </a>
     </td>
-    <td align="center" valign="top">
+    <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/Demo-htop">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=Demo-htop&theme=transparent&locale=en" alt="Demo-htop"/>
       </a>
