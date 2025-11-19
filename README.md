@@ -70,7 +70,7 @@
         </div>
       </td>
     </tr>
-    <tr>
+    <tr style="background-color: transparent;">
       <!-- Descriptions Row: Top aligned -->
       <td align="center" valign="top">
         <p>Background in communications and information-related engineering.<br>（通信与信息工程相关背景）</p>
@@ -108,7 +108,7 @@ Some basic GitHub stats that reflect recent activity and language preferences.
 <!-- 4. Beautified Activity & Streak: Using 'transparent' theme with custom colors or a clean theme -->
 <div align="center">
   <p>
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=transparent&locale=en&include_all_commits=true&count_private=true&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6" alt="LessUp's GitHub stats" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=transparent&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6" alt="LessUp's GitHub stats" />
     <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=transparent&locale=en&hide_border=true&title_color=0077b6&text_color=555555" alt="Top Languages" />
   </p>
 </div>
