@@ -130,7 +130,7 @@ Contribution streaks and activity graph offer a high-level view of my coding rhy
 
 A selection of projects I'm actively maintaining or experimenting with.
 
-下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。更多项目可以在我的 GitHub 仓库列表中查看。
+ 下面是当前在维护或试验的一些项目仓库，主要涵盖工具、小型实验和演示项目。
 
 <!-- 5. Projects: Removed shadows (hide_border=true) and improved alignment possibilities -->
 <table width="100%">
@@ -139,11 +139,13 @@ A selection of projects I'm actively maintaining or experimenting with.
       <a href="https://github.com/LessUp/FastQToys">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="FastQToys" />
       </a>
+      <p>🧬 高性能 FASTQ 文件处理与分析工具集</p>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/WebRTC">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=WebRTC&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="WebRTC" />
       </a>
+      <p>📡 基于Go的WebRTC信令服务与浏览器音视频通话demo</p>
     </td>
   </tr>
   <tr>
@@ -151,11 +153,13 @@ A selection of projects I'm actively maintaining or experimenting with.
       <a href="https://github.com/LessUp/YOLO-Toys">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=YOLO-Toys&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="YOLO-Toys" />
       </a>
+      <p>🎯 基于 FastAPI 与 YOLOv8 的实时视频流目标检测 demo</p>
     </td>
     <td width="50%" align="center" valign="top">
       <a href="https://github.com/LessUp/MetaHuman">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=MetaHuman&theme=transparent&locale=en&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555" alt="MetaHuman" />
       </a>
+      <p>🧑‍🚀 集成 3D 建模、语音交互与行为控制的数字人平台</p>
     </td>
   </tr>
 </table>
