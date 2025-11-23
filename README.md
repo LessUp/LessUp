@@ -20,7 +20,7 @@
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="Views" />
   &nbsp;
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=LessUp.LessUp&left_color=555555&right_color=e76f51&left_text=Visitors" alt="Visitors" />
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLessUp%2FLessUp&count_bg=%23e76f51&title_bg=%23555555&icon=github&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors" />
 </div>
 
 <br/>
@@ -52,7 +52,7 @@
     <tr>
       <!-- Education Logo -->
       <td align="center" valign="middle" height="120">
-        <img src="https://logo.clearbit.com/xidian.edu.cn" height="70" alt="Xidian University"/>
+        <img src="https://logo.clearbit.com/xidian.edu.cn" height="50" alt="Xidian University"/>
       </td>
       <!-- Experience Logos -->
       <td align="center" valign="middle" height="120">
