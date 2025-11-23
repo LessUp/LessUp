@@ -20,7 +20,7 @@
   &nbsp;
   <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="Views" />
   &nbsp;
-  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FLessUp%2FLessUp&count_bg=%23e76f51&title_bg=%23555555&icon=github&icon_color=%23E7E7E7&title=Visitors&edge_flat=true" alt="Visitors" />
+  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FLessUp%2FLessUp&label=Visitors&countColor=%23e76f51&style=flat-square&labelColor=%23555555" alt="Visitors" />
 </div>
 
 <br/>
