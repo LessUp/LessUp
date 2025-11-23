@@ -39,46 +39,33 @@
 
 ---
 
-### 🎓 Education & 💼 Experience
+### 🎓 Education & Experience / 教育与经历
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th width="50%" align="center"><h3>🎓 Education</h3></th>
-      <th width="50%" align="center"><h3>💼 Experience</h3></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <!-- Education Logo -->
-      <td align="center" valign="middle" height="120">
-        <img src="https://logo.clearbit.com/xidian.edu.cn" height="50" alt="Xidian University"/>
-      </td>
-      <!-- Experience Logos -->
-      <td align="center" valign="middle" height="120">
-        <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
-          <img src="https://logo.clearbit.com/mindray.com" height="40" alt="Mindray"/>
-          <img src="https://logo.clearbit.com/zego.im" height="40" alt="ZEGO"/>
-          <img src="https://logo.clearbit.com/genomics.cn" height="40" alt="BGI"/>
-        </div>
-      </td>
-    </tr>
-    <tr>
-      <!-- Education Details -->
-      <td align="center" valign="top">
-        <b>Xidian University</b>
-        <br>
-        <span style="color: #555; font-size: 13px;">Background in communications engineering.<br>（通信与信息工程相关背景）</span>
-      </td>
-      <!-- Experience Details -->
-      <td align="center" valign="top">
-        <b>Engineering Practice</b>
-        <br>
-        <span style="color: #555; font-size: 13px;">Medical imaging, RTC & Genomic data.<br>（医疗、音视频与基因数据工程）</span>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<!-- Education Block -->
+> **🎓 Education**
+> <br/>
+> <div style="display: flex; align-items: center; gap: 10px;">
+>   <img src="https://logo.clearbit.com/xidian.edu.cn" height="40" alt="Xidian University"/>
+>   <div>
+>     <b>Xidian University</b>
+>     <br/>Background in communications engineering. / 通信与信息工程相关背景
+>   </div>
+> </div>
+
+<!-- Experience Block -->
+> **💼 Experience**
+> <br/>
+> <div style="display: flex; align-items: center; gap: 10px;">
+>   <div style="display: flex; gap: 8px;">
+>     <img src="https://logo.clearbit.com/mindray.com" height="30" alt="Mindray"/>
+>     <img src="https://logo.clearbit.com/zego.im" height="30" alt="ZEGO"/>
+>     <img src="https://logo.clearbit.com/genomics.cn" height="30" alt="BGI"/>
+>   </div>
+>   <div>
+>     <b>Engineering Practice</b>
+>     <br/>Medical imaging, RTC & Genomic data. / 医疗、音视频与基因数据工程
+>   </div>
+> </div>
 
 ---
 
