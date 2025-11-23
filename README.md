@@ -121,41 +121,18 @@ Main technologies I work with (English first, with brief Chinese hints):
 
 ### 📂 Active Projects / 正在进行的项目
 
-<!-- Projects Table: Enforcing Grid Layout with Cards -->
-<table width="100%">
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/FastQToys">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="FastQToys" />
-      </a>
-      <br/>
-      <sub>🧬 High-performance FASTQ tools / 高性能 FASTQ 处理工具</sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/WebRTC">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=WebRTC&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="WebRTC" />
-      </a>
-      <br/>
-      <sub>📡 WebRTC Signaling & Demo / 信令服务与通话演示</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/YOLO-Toys">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=YOLO-Toys&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="YOLO-Toys" />
-      </a>
-      <br/>
-      <sub>🎯 FastAPI & YOLOv8 Demo / 实时视频流目标检测</sub>
-    </td>
-    <td width="50%" align="center" valign="top">
-      <a href="https://github.com/LessUp/MetaHuman">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=MetaHuman&theme=default&locale=en&hide_border=false&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff&border_color=e0e0e0" alt="MetaHuman" />
-      </a>
-      <br/>
-      <sub>🧑‍🚀 Digital Human Platform / 数字人平台</sub>
-    </td>
-  </tr>
-</table>
+<!-- Projects List: Clean & Simple -->
+- 🧬 **[FastQToys](https://github.com/LessUp/FastQToys)**
+  <br/>High-performance FASTQ tools / 高性能 FASTQ 处理工具
+
+- 📡 **[WebRTC](https://github.com/LessUp/WebRTC)**
+  <br/>WebRTC Signaling & Demo / 信令服务与通话演示
+
+- 🎯 **[YOLO-Toys](https://github.com/LessUp/YOLO-Toys)**
+  <br/>FastAPI & YOLOv8 Demo / 实时视频流目标检测
+
+- 🧑‍🚀 **[MetaHuman](https://github.com/LessUp/MetaHuman)**
+  <br/>Digital Human Platform / 数字人平台
 
 ---
 
