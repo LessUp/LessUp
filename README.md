@@ -3,17 +3,15 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=35&desc=AI%20Infrastructure%20&%20HPC%20Developer&descAlignY=65&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
 
   <br/>
-
-  <h2>LessUp · AI Infrastructure &amp; HPC Developer</h2>
-  <p>
-    Building efficient AI infrastructure, high-performance systems, and data pipelines.<br/>
-    专注于 AI 基础设施与高性能计算的工程实践。
-  </p>
+  
+  <!-- Typing SVG -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0077B6&center=true&vCenter=true&width=500&lines=Building+Efficient+AI+Infrastructure;High-Performance+Computing+(HPC)+Practitioner;C%2B%2B+%2F+Rust+%2F+Python+Developer;Optimizing+Training+%26+Inference+Pipelines" alt="Typing SVG" />
+  </a>
 
   <br/>
 
   <!-- 2. Badges: Uniform Flat-Square Style -->
-  <!-- Followers (Green) | Stars (Yellow/Orange) | Views (Blue) | Visitors (Red/Orange) -->
   <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="Followers" />
   &nbsp;
   <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="Stars" />
@@ -41,39 +39,41 @@
 
 ### 🎓 Education & Experience / 教育与经历
 
-<!-- Education Block -->
-> **🎓 Education**
-> <br/>
-> <div style="display: flex; align-items: center; gap: 10px;">
->   <img src="https://logo.clearbit.com/xidian.edu.cn" height="40" alt="Xidian University"/>
->   <div>
->     <b>Xidian University</b>
->     <br/>Background in communications engineering. / 通信与信息工程相关背景
->   </div>
-> </div>
-
-<!-- Experience Block -->
-> **💼 Experience**
-> <br/>
-> <div style="display: flex; align-items: center; gap: 10px;">
->   <div style="display: flex; gap: 8px;">
->     <img src="https://logo.clearbit.com/mindray.com" height="30" alt="Mindray"/>
->     <img src="https://logo.clearbit.com/zego.im" height="30" alt="ZEGO"/>
->     <img src="https://logo.clearbit.com/genomics.cn" height="30" alt="BGI"/>
->   </div>
->   <div>
->     <b>Engineering Practice</b>
->     <br/>Medical imaging, RTC & Genomic data. / 医疗、音视频与基因数据工程
->   </div>
-> </div>
+<!-- Using a table for better alignment stability -->
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 Education</h3>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <img src="https://logo.clearbit.com/xidian.edu.cn" height="40" alt="Xidian University"/>
+        <div>
+          <b>Xidian University</b><br/>
+          <span style="font-size: 12px;">Communications Engineering<br/>通信与信息工程</span>
+        </div>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💼 Experience</h3>
+      <div style="display: flex; align-items: center; gap: 10px;">
+        <div style="display: flex; gap: 5px;">
+          <img src="https://logo.clearbit.com/mindray.com" height="25" alt="Mindray"/>
+          <img src="https://logo.clearbit.com/zego.im" height="25" alt="ZEGO"/>
+          <img src="https://logo.clearbit.com/genomics.cn" height="25" alt="BGI"/>
+        </div>
+        <div>
+          <b>Engineering Practice</b><br/>
+          <span style="font-size: 12px;">Medical, RTC & Genomic Data<br/>医疗、音视频与基因数据工程</span>
+        </div>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 🛠️ Tech Stack / 技术栈
 
-Main technologies I work with (English first, with brief Chinese hints):
-
-主要使用的语言与技术栈如下，图标大致反映熟悉程度与使用频率。
+主要使用的语言与技术栈如下：
 
 | **Category** | **Technologies** |
 | :--- | :--- |
@@ -87,50 +87,61 @@ Main technologies I work with (English first, with brief Chinese hints):
 ### 📊 GitHub Stats / 数据概览
 
 <div align="center">
-  <p>
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=ffffff" alt="LessUp's GitHub stats" />
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=ffffff" alt="Top Languages" />
-  </p>
+  <table>
+    <tr>
+      <td>
+        <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=ffffff" alt="LessUp's GitHub stats" />
+      </td>
+      <td>
+        <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=ffffff" alt="Top Languages" />
+      </td>
+    </tr>
+  </table>
+  
+  <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=ffffff" alt="GitHub Streak" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=ffffff&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
 </div>
 
 ---
 
-### 📈 Activity & Streak / 活跃度与连击
-
-<div align="center">
-  <p>
-    <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=ffffff" alt="GitHub Streak" />
-  </p>
-  <p>
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=ffffff&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
-  </p>
-</div>
-
 ### 📂 Active Projects / 正在进行的项目
 
-<!-- Projects List: Clean & Simple -->
-- 🧬 **[FastQToys](https://github.com/LessUp/FastQToys)**
-  <br/>High-performance FASTQ tools / 高性能 FASTQ 处理工具
-
-- 📡 **[WebRTC](https://github.com/LessUp/WebRTC)**
-  <br/>WebRTC Signaling & Demo / 信令服务与通话演示
-
-- 🎯 **[YOLO-Toys](https://github.com/LessUp/YOLO-Toys)**
-  <br/>FastAPI & YOLOv8 Demo / 实时视频流目标检测
-
-- 🧑‍🚀 **[MetaHuman](https://github.com/LessUp/MetaHuman)**
-  <br/>Digital Human Platform / 数字人平台
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/LessUp/FastQToys">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=FastQToys&theme=default&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/LessUp/WebRTC">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=WebRTC&theme=default&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/LessUp/YOLO-Toys">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=YOLO-Toys&theme=default&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff" />
+        </a>
+      </td>
+      <td align="center">
+        <a href="https://github.com/LessUp/MetaHuman">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=LessUp&repo=MetaHuman&theme=default&hide_border=true&title_color=0077b6&icon_color=0077b6&text_color=555555&bg_color=ffffff" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
 ### 📫 Connect with me / 联系方式
 
-Feel free to reach out for collaboration, technical discussions, or open-source ideas.
-
-欢迎通过邮箱与我交流技术想法、合作机会或开源项目。
-
-<div align="left">
+<div align="center">
   <a href="mailto:jiashuai.shi@qq.com">
-    <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-FF5722?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-0077b6?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
