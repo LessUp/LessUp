@@ -70,65 +70,52 @@
 <a id="projects"></a>
 ### 🚀 Featured Projects / 精选项目
 
-<!-- Projects List: Minimal, Geeky, and Structured -->
+<!-- Projects List: Card Grid -->
 <table>
-  <thead>
-    <tr>
-      <th align="left">🚀 Project</th>
-      <th align="left">Focus</th>
-      <th align="left">Tech Stack</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        🧬 <b><a href="https://github.com/LessUp/FastQToys">FastQToys</a></b><br/>
-        <sub>FASTQ toolchain</sub>
-      </td>
-      <td>High-performance FASTQ tools / 高性能 FASTQ 处理工具</td>
-      <td>
+  <tr>
+    <td width="50%">
+      <h4>🧬 <a href="https://github.com/LessUp/FastQToys">FastQToys</a></h4>
+      <p><sub>FASTQ toolchain · 高性能 FASTQ 处理工具</sub></p>
+      <p>High-performance FASTQ tools / 高性能 FASTQ 处理工具</p>
+      <p>
         <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
         <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
         <img src="https://img.shields.io/badge/Bioinformatics-3A86FF?style=flat-square&logo=databricks&logoColor=white" alt="Bioinformatics" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        📡 <b><a href="https://github.com/LessUp/WebRTC">WebRTC</a></b><br/>
-        <sub>Realtime signaling</sub>
-      </td>
-      <td>WebRTC signaling & demo / 信令服务与通话演示</td>
-      <td>
+      </p>
+    </td>
+    <td width="50%">
+      <h4>📡 <a href="https://github.com/LessUp/WebRTC">WebRTC</a></h4>
+      <p><sub>Realtime signaling · 信令服务与通话演示</sub></p>
+      <p>WebRTC signaling & demo / 信令服务与通话演示</p>
+      <p>
         <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
         <img src="https://img.shields.io/badge/WebRTC-1F6FEB?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
         <img src="https://img.shields.io/badge/Networking-4CC9F0?style=flat-square&logo=cloudflare&logoColor=white" alt="Networking" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        🎯 <b><a href="https://github.com/LessUp/YOLO-Toys">YOLO-Toys</a></b><br/>
-        <sub>Streaming detection</sub>
-      </td>
-      <td>Real-time detection / 实时视频流目标检测</td>
-      <td>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4>🎯 <a href="https://github.com/LessUp/YOLO-Toys">YOLO-Toys</a></h4>
+      <p><sub>Streaming detection · 实时视频流目标检测</sub></p>
+      <p>Real-time detection / 实时视频流目标检测</p>
+      <p>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
         <img src="https://img.shields.io/badge/YOLOv8-5E60CE?style=flat-square&logo=opencv&logoColor=white" alt="YOLOv8" />
         <img src="https://img.shields.io/badge/Streaming-00B4D8?style=flat-square&logo=obsstudio&logoColor=white" alt="Streaming" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        🧑‍🚀 <b><a href="https://github.com/LessUp/MetaHuman">MetaHuman</a></b><br/>
-        <sub>Digital human platform</sub>
-      </td>
-      <td>Digital human platform / 数字人平台</td>
-      <td>
+      </p>
+    </td>
+    <td width="50%">
+      <h4>🧑‍🚀 <a href="https://github.com/LessUp/MetaHuman">MetaHuman</a></h4>
+      <p><sub>Digital human platform · 数字人平台</sub></p>
+      <p>Digital human platform / 数字人平台</p>
+      <p>
         <img src="https://img.shields.io/badge/AI-111827?style=flat-square&logo=openai&logoColor=white" alt="AI" />
         <img src="https://img.shields.io/badge/Rendering-6C757D?style=flat-square&logo=blender&logoColor=white" alt="Rendering" />
         <img src="https://img.shields.io/badge/Systems-2B9348?style=flat-square&logo=linux&logoColor=white" alt="Systems" />
-      </td>
-    </tr>
-  </tbody>
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -136,34 +123,27 @@
 <a id="experience"></a>
 ### 🎓 Education & Experience / 教育与经历
 
-<!-- Education & Experience: Compact Matrix -->
+<!-- Education & Experience: Split Cards -->
 <table>
-  <thead>
-    <tr>
-      <th align="left">Track</th>
-      <th align="left">Organization</th>
-      <th align="left">Notes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>🎓 Education</td>
-      <td>
+  <tr>
+    <td width="50%">
+      <h4>🎓 Education</h4>
+      <p>
         <img src="https://logo.clearbit.com/xidian.edu.cn" height="18" alt="Xidian University"/>
         <b>Xidian University</b>
-      </td>
-      <td>Background in communications engineering. / 通信与信息工程相关背景</td>
-    </tr>
-    <tr>
-      <td>💼 Experience</td>
-      <td>
+      </p>
+      <p>Background in communications engineering. / 通信与信息工程相关背景</p>
+    </td>
+    <td width="50%">
+      <h4>💼 Experience</h4>
+      <p>
         <img src="https://logo.clearbit.com/mindray.com" height="18" alt="Mindray"/> Mindray ·
         <img src="https://logo.clearbit.com/zego.im" height="18" alt="ZEGO"/> ZEGO ·
         <img src="https://logo.clearbit.com/genomics.cn" height="18" alt="BGI"/> BGI
-      </td>
-      <td>Medical imaging, RTC & Genomic data. / 医疗、音视频与基因数据工程</td>
-    </tr>
-  </tbody>
+      </p>
+      <p>Medical imaging, RTC & Genomic data. / 医疗、音视频与基因数据工程</p>
+    </td>
+  </tr>
 </table>
 
 ---
