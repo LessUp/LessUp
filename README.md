@@ -12,6 +12,15 @@
 
   <br/>
 
+  <!-- 1. Quick Facts -->
+  <p>
+    ⚡ Focus: Infrastructure Optimization · Real-time Systems · Data Engineering<br/>
+    🌱 Currently exploring: AI inference acceleration &amp; large-scale pipeline orchestration<br/>
+    📍 Open to: Research collaboration &amp; open-source co-building
+  </p>
+
+  <br/>
+
   <!-- 2. Badges: Uniform Flat-Square Style -->
   <!-- Followers (Green) | Stars (Yellow/Orange) | Views (Blue) | Visitors (Red/Orange) -->
   <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="Followers" />
@@ -24,6 +33,7 @@
   <br/>
   <p>
     <a href="#about">About</a> ·
+    <a href="#now">Now</a> ·
     <a href="#projects">Projects</a> ·
     <a href="#experience">Experience</a> ·
     <a href="#tech-stack">Tech Stack</a> ·
@@ -48,6 +58,15 @@
 
 ---
 
+<a id="now"></a>
+### ✨ Now / 近期方向
+
+- **Inference Systems**: Build low-latency inference services and profiling tooling. / 低延迟推理服务与性能剖析
+- **MLOps Pipelines**: Dataset versioning, reproducible training, and deployment automation. / 数据集版本化与自动化训练部署
+- **Engineering Writing**: Documenting system design and performance learnings. / 总结系统设计与性能优化经验
+
+---
+
 <a id="projects"></a>
 ### 🚀 Featured Projects / 精选项目
 
@@ -69,17 +88,12 @@
 </div>
 
 <!-- Projects List: Clean & Simple -->
-- 🧬 **[FastQToys](https://github.com/LessUp/FastQToys)**  
-  <br/>High-performance FASTQ tools / 高性能 FASTQ 处理工具
-
-- 📡 **[WebRTC](https://github.com/LessUp/WebRTC)**  
-  <br/>WebRTC Signaling & Demo / 信令服务与通话演示
-
-- 🎯 **[YOLO-Toys](https://github.com/LessUp/YOLO-Toys)**  
-  <br/>FastAPI & YOLOv8 Demo / 实时视频流目标检测
-
-- 🧑‍🚀 **[MetaHuman](https://github.com/LessUp/MetaHuman)**  
-  <br/>Digital Human Platform / 数字人平台
+| Project | Focus | Tech |
+| :--- | :--- | :--- |
+| 🧬 **[FastQToys](https://github.com/LessUp/FastQToys)** | High-performance FASTQ tools / 高性能 FASTQ 处理工具 | C++ · Rust · Bioinformatics |
+| 📡 **[WebRTC](https://github.com/LessUp/WebRTC)** | WebRTC signaling & demo / 信令服务与通话演示 | C++ · WebRTC · Networking |
+| 🎯 **[YOLO-Toys](https://github.com/LessUp/YOLO-Toys)** | Real-time detection / 实时视频流目标检测 | FastAPI · YOLOv8 · Streaming |
+| 🧑‍🚀 **[MetaHuman](https://github.com/LessUp/MetaHuman)** | Digital human platform / 数字人平台 | AI · Rendering · Systems |
 
 ---
 
@@ -109,8 +123,8 @@ Main technologies I work with (English first, with brief Chinese hints):
 | :--- | :--- |
 | **Languages** | <img src="https://skillicons.dev/icons?i=cpp,rust,python,bash,go,lua" alt="Languages"/> |
 | **AI &amp; Data** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,numpy,pandas" alt="AI & Data"/> |
-| **System** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx" alt="System & Infra"/> |
-| **Web** | <img src="https://skillicons.dev/icons?i=html,css,js,vite,vue" alt="Web & Others"/> |
+| **System** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx,cmake" alt="System & Infra"/> |
+| **Web** | <img src="https://skillicons.dev/icons?i=html,css,js,vite,vue,tailwind" alt="Web & Others"/> |
 
 ---
 
@@ -150,4 +164,14 @@ Feel free to reach out for collaboration, technical discussions, or open-source 
   <a href="mailto:jiashuai.shi@qq.com">
     <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-FF5722?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
   </a>
+  &nbsp;
+  <a href="https://github.com/LessUp">
+    <img src="https://img.shields.io/badge/GitHub-LessUp-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=120&section=footer" width="100%" alt="Footer" />
 </div>
