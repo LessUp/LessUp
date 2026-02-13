@@ -1,6 +1,5 @@
 <div align="center">
-  <!-- 1. Header: Clean Gradient -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=35&desc=AI%20Infrastructure%20&%20HPC%20Developer&descAlignY=65&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=35&desc=AI%20Infrastructure%20%26%20HPC%20Developer&descAlignY=65&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
 
   <br/>
 
@@ -12,17 +11,14 @@
 
   <br/>
 
-  <!-- 1. Quick Facts -->
   <p>
-    ⚡ Focus: Infrastructure Optimization · Real-time Systems · Data Engineering<br/>
+    ⚡ Focus: CUDA Kernel Optimization · LLM Inference · GPU Computing<br/>
     🌱 Currently exploring: AI inference acceleration &amp; large-scale pipeline orchestration<br/>
     📍 Open to: Research collaboration &amp; open-source co-building
   </p>
 
   <br/>
 
-  <!-- 2. Badges: Uniform Flat-Square Style -->
-  <!-- Followers (Green) | Stars (Yellow/Orange) | Views (Blue) | Visitors (Red/Orange) -->
   <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="Followers" />
   &nbsp;
   <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="Stars" />
@@ -33,7 +29,6 @@
   <br/>
   <p>
     <a href="#about">About</a> ·
-    <a href="#now">Now</a> ·
     <a href="#projects">Projects</a> ·
     <a href="#experience">Experience</a> ·
     <a href="#tech-stack">Tech Stack</a> ·
@@ -49,70 +44,206 @@
 <a id="about"></a>
 ### 👨‍💻 About Me / 关于我
 
-> I build AI infrastructure and high-performance systems with C++, Rust, and Python.  
-> （中文）主要关注 AI 基础设施、数据处理与高性能计算等方向的工程实践。
+> I build AI infrastructure and high-performance systems with C++/CUDA, Python, and Go.  
+> 主要关注 AI 基础设施、GPU 算子优化与高性能计算等方向的工程实践。
 
-- **AI Infrastructure**: Optimizing training and inference pipelines. / 训练与推理流程优化
-- **High-Performance Computing**: Leveraging C++ and Rust for speed. / 使用 C++ 与 Rust 构建高性能系统
-- **Data Processing**: Handling large-scale data with modern tools. / 处理与分析大规模数据
-
----
-
-<a id="now"></a>
-### ✨ Now / 近期方向
-
-- **Inference Systems**: Build low-latency inference services and profiling tooling. / 低延迟推理服务与性能剖析
-- **MLOps Pipelines**: Dataset versioning, reproducible training, and deployment automation. / 数据集版本化与自动化训练部署
-- **Engineering Writing**: Documenting system design and performance learnings. / 总结系统设计与性能优化经验
+- **GPU Kernel Engineering**: CUDA/Triton kernel optimization, FlashAttention, GEMM, quantization / GPU 算子优化
+- **AI Inference Systems**: LLM inference engines, model quantization (W8A16/FP8), KV Cache / AI 推理系统
+- **High-Performance Computing**: N-body simulation, ray tracing, image processing pipelines / 高性能计算
+- **Real-time Systems**: WebRTC signaling, real-time detection, digital human platform / 实时系统
 
 ---
 
 <a id="projects"></a>
-### 🚀 Featured Projects / 精选项目
+### 🚀 Projects / 项目全景
 
-<!-- Projects List: Card Grid -->
+#### ⚡ GPU Kernel Optimization / GPU 算子优化
+
 <table>
   <tr>
     <td width="50%">
-      <h4>🧬 <a href="https://github.com/LessUp/FastQToys">FastQToys</a></h4>
-      <p><sub>FASTQ toolchain · 高性能 FASTQ 处理工具</sub></p>
-      <p>High-performance FASTQ tools / 高性能 FASTQ 处理工具</p>
+      <h4><a href="https://github.com/LessUp/modern-ai-kernels">TensorCraft-HPC</a></h4>
+      <p>Modern C++17/CUDA AI kernel library — Elementwise, GEMM, FlashAttention, Conv2D, SpMV, FP8 quantization</p>
       <p>
-        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-        <img src="https://img.shields.io/badge/Bioinformatics-3A86FF?style=flat-square&logo=databricks&logoColor=white" alt="Bioinformatics" />
+        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/Tensor_Core-111827?style=flat-square&logo=nvidia&logoColor=white" alt="Tensor Core" />
       </p>
     </td>
     <td width="50%">
-      <h4>📡 <a href="https://github.com/LessUp/WebRTC">WebRTC</a></h4>
-      <p><sub>Realtime signaling · 信令服务与通话演示</sub></p>
-      <p>WebRTC signaling & demo / 信令服务与通话演示</p>
+      <h4><a href="https://github.com/LessUp/sgemm-optimization">SGEMM Optimization</a></h4>
+      <p>From naive 3-loop to Tensor Core — progressive SGEMM optimization reaching 40% cuBLAS</p>
       <p>
-        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
-        <img src="https://img.shields.io/badge/WebRTC-1F6FEB?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
-        <img src="https://img.shields.io/badge/Networking-4CC9F0?style=flat-square&logo=cloudflare&logoColor=white" alt="Networking" />
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/WMMA-111827?style=flat-square&logo=nvidia&logoColor=white" alt="WMMA" />
+        <img src="https://img.shields.io/badge/Roofline-4CC9F0?style=flat-square" alt="Roofline" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4>🎯 <a href="https://github.com/LessUp/YOLO-Toys">YOLO-Toys</a></h4>
-      <p><sub>Streaming detection · 实时视频流目标检测</sub></p>
-      <p>Real-time detection / 实时视频流目标检测</p>
+      <h4><a href="https://github.com/LessUp/triton-fused-ops">Triton Fused Ops</a></h4>
+      <p>RMSNorm+RoPE fusion, Gated MLP fusion, FP8 GEMM with auto-tuning for Transformers</p>
       <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/YOLOv8-5E60CE?style=flat-square&logo=opencv&logoColor=white" alt="YOLOv8" />
-        <img src="https://img.shields.io/badge/Streaming-00B4D8?style=flat-square&logo=obsstudio&logoColor=white" alt="Streaming" />
+        <img src="https://img.shields.io/badge/Triton-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="Triton" />
+        <img src="https://img.shields.io/badge/FP8-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="FP8" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
       </p>
     </td>
     <td width="50%">
-      <h4>🧑‍🚀 <a href="https://github.com/LessUp/MetaHuman">MetaHuman</a></h4>
-      <p><sub>Digital human platform · 数字人平台</sub></p>
-      <p>Digital human platform / 数字人平台</p>
+      <h4><a href="https://github.com/LessUp/llm-speed">LLM-Speed</a></h4>
+      <p>CUDA LLM kernel library — FlashAttention (online softmax), FP16/INT8 GEMM with Tensor Core</p>
       <p>
-        <img src="https://img.shields.io/badge/AI-111827?style=flat-square&logo=openai&logoColor=white" alt="AI" />
-        <img src="https://img.shields.io/badge/Rendering-6C757D?style=flat-square&logo=blender&logoColor=white" alt="Rendering" />
-        <img src="https://img.shields.io/badge/Systems-2B9348?style=flat-square&logo=linux&logoColor=white" alt="Systems" />
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/FlashAttn-111827?style=flat-square" alt="FlashAttention" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+#### 🧠 AI Inference Engines / AI 推理引擎
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/tiny-llm">Tiny-LLM</a></h4>
+      <p>Lightweight LLM inference engine — W8A16 quantization, KV Cache, multi-sampling strategies</p>
+      <p>
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
+        <img src="https://img.shields.io/badge/INT8-4CC9F0?style=flat-square" alt="INT8" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/mini-inference-engine">Mini Inference Engine</a></h4>
+      <p>7-level GEMM optimization (Naive→Tensor Core), reaching 72% cuBLAS with MNIST demo</p>
+      <p>
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
+        <img src="https://img.shields.io/badge/FP16-76B900?style=flat-square" alt="FP16" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/tiny-dl-inference">Tiny-DL-Inference</a></h4>
+      <p>WebGPU micro inference engine — Conv2d, kernel fusion, Im2Col, MNIST classification</p>
+      <p>
+        <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/WGSL-4CC9F0?style=flat-square" alt="WGSL" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/YOLO-Toys">YOLO-Toys</a></h4>
+      <p>Multi-model real-time vision — YOLO/DETR/OWL-ViT/BLIP with WebSocket streaming</p>
+      <p>
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/YOLOv8-5E60CE?style=flat-square&logo=opencv&logoColor=white" alt="YOLOv8" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+#### 🎮 GPU Computing & Simulation / GPU 计算与仿真
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/ray-tracer">CUDA Ray Tracer</a></h4>
+      <p>Pure CUDA ray tracer — Phong shading, path tracing, BVH acceleration, warp divergence optimization</p>
+      <p>
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/Path_Tracing-E76F51?style=flat-square" alt="Path Tracing" />
+        <img src="https://img.shields.io/badge/BVH-4CC9F0?style=flat-square" alt="BVH" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/n-body">N-Body Simulation</a></h4>
+      <p>Million-particle GPU simulation — Direct N², Barnes-Hut, Spatial Hash with CUDA-OpenGL interop</p>
+      <p>
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white" alt="OpenGL" />
+        <img src="https://img.shields.io/badge/Barnes--Hut-111827?style=flat-square" alt="Barnes-Hut" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/particle-fluid-sim">Particle Fluid Sim</a></h4>
+      <p>10K-particle real-time fluid simulation using WebGPU compute shaders with trail effects</p>
+      <p>
+        <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/WGSL-4CC9F0?style=flat-square" alt="WGSL" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/mini-opencv">Mini-OpenCV</a></h4>
+      <p>CUDA image processing library — convolution, morphology, geometric transforms, pipeline processing</p>
+      <p>
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
+        <img src="https://img.shields.io/badge/Image_Processing-E76F51?style=flat-square" alt="Image Processing" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/mini-image-pipe">Mini-ImagePipe</a></h4>
+      <p>DAG-based heterogeneous image pipeline — multi-stream scheduling, pinned memory pool</p>
+      <p>
+        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
+        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
+        <img src="https://img.shields.io/badge/DAG-4CC9F0?style=flat-square" alt="DAG" />
+      </p>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+#### 🌐 Applications / 应用项目
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/MetaHuman">MetaHuman</a></h4>
+      <p>3D digital human platform — Three.js rendering, voice interaction, behavior control, emotion FSM</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/WebRTC">WebRTC</a></h4>
+      <p>Minimal WebRTC demo — Go WebSocket signaling, room management, peer-to-peer media</p>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/sync-notes">Note Sync Now</a></h4>
+      <p>E2E encrypted note sync — AES-256, 12-word mnemonic, real-time collaboration via WebSocket</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+        <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/mind-gym">Mind Gym</a></h4>
+      <p>Browser-based memory training — N-back, spaced reinforcement, adaptive difficulty, PWA</p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA" />
       </p>
     </td>
   </tr>
@@ -123,7 +254,6 @@
 <a id="experience"></a>
 ### 🎓 Education & Experience / 教育与经历
 
-<!-- Education & Experience: Split Cards -->
 <table>
   <tr>
     <td width="50%">
@@ -151,16 +281,12 @@
 <a id="tech-stack"></a>
 ### 🛠️ Tech Stack / 技术栈
 
-Main technologies I work with (English first, with brief Chinese hints):
-
-主要使用的语言与技术栈如下，图标大致反映熟悉程度与使用频率。
-
 | **Category** | **Technologies** |
 | :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev/icons?i=cpp,rust,python,bash,go,lua" alt="Languages"/> |
-| **AI &amp; Data** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,numpy,pandas" alt="AI & Data"/> |
-| **System** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,nginx,cmake" alt="System & Infra"/> |
-| **Web** | <img src="https://skillicons.dev/icons?i=html,css,js,vite,vue,tailwind" alt="Web & Others"/> |
+| **Languages** | <img src="https://skillicons.dev/icons?i=cpp,cuda,python,rust,go,bash" alt="Languages"/> |
+| **AI &amp; HPC** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" alt="AI"/> &nbsp; CUDA · Triton · cuBLAS · Tensor Core · WebGPU |
+| **System &amp; DevOps** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,cmake,nginx" alt="System"/> |
+| **Web &amp; Frontend** | <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,threejs" alt="Web"/> |
 
 ---
 
