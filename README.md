@@ -51,7 +51,7 @@
 
 <h3>👨‍💻 About Me / 关于我</h3>
 
-<img align="right" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=donut-vertical&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=00000000" alt="Top Languages" />
+<img align="right" width="300" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=LessUp&layout=donut-vertical&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=00000000&cache_seconds=86400" alt="Top Languages" />
 
 > I build AI infrastructure and high-performance systems with C++/CUDA, Python, and Go.  
 > 主要关注 AI 基础设施、GPU 算子优化与高性能计算等方向的工程实践。
@@ -314,7 +314,7 @@
 
 <div align="center">
 
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=00000000&rank_icon=github" alt="LessUp's GitHub stats" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=00000000&rank_icon=github&cache_seconds=86400" alt="LessUp's GitHub stats" />
   &nbsp;
   <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=00000000&hide_border=true" alt="GitHub Streak" />
 
@@ -324,7 +324,7 @@
 
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=LessUp&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=10" alt="GitHub Trophy" />
+    <img src="https://github-profile-trophy.vercel.app/?username=LessUp&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=10&no-cache=true" alt="GitHub Trophy" />
   </a>
 </div>
 
@@ -334,7 +334,7 @@
   <summary>📈 More Stats / 更多数据</summary>
   <br/>
   <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef&cache_seconds=86400" alt="GitHub Activity Graph"/>
   </div>
 </details>
 
