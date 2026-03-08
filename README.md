@@ -1,39 +1,45 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=35&desc=AI%20Infrastructure%20%26%20HPC%20Developer&descAlignY=65&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=30&desc=AI%20Infrastructure%20%26%20HPC%20Developer&descAlignY=58&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
 
   <br/>
 
-  <h2>LessUp · AI Infrastructure &amp; HPC Developer</h2>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=0077B6&center=true&vCenter=true&multiline=true&repeat=true&width=680&height=80&lines=Building+AI+Infrastructure+%26+HPC+Systems;CUDA+Kernel+Optimization+%7C+LLM+Inference+%7C+GPU+Computing" alt="Typing SVG" />
+  </a>
+
+  <br/>
+
   <p>
-    Building efficient AI infrastructure, high-performance systems, and data pipelines.<br/>
-    专注于 AI 基础设施与高性能计算的工程实践。
+    专注于 AI 基础设施与高性能计算的工程实践
+  </p>
+
+  <p>
+    🔬 <b>Focus</b>: CUDA Kernel Optimization · LLM Inference · GPU Computing<br/>
+    🌱 <b>Exploring</b>: AI inference acceleration &amp; large-scale pipeline orchestration<br/>
+    🤝 <b>Open to</b>: Research collaboration &amp; open-source co-building
   </p>
 
   <br/>
 
-  <p>
-    ⚡ Focus: CUDA Kernel Optimization · LLM Inference · GPU Computing<br/>
-    🌱 Currently exploring: AI inference acceleration &amp; large-scale pipeline orchestration<br/>
-    📍 Open to: Research collaboration &amp; open-source co-building
-  </p>
+  <a href="https://github.com/LessUp?tab=followers">
+    <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=for-the-badge&color=0077b6&logo=github&logoColor=white" alt="Followers" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/LessUp?tab=repositories">
+    <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=for-the-badge&color=e76f51&logo=github&logoColor=white" alt="Stars" />
+  </a>
+  &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile+Views&color=00b4d8&style=for-the-badge" alt="Views" />
 
-  <br/>
+  <br/><br/>
 
-  <img src="https://img.shields.io/github/followers/LessUp?label=Followers&style=flat-square&color=2ea44f&logo=github" alt="Followers" />
-  &nbsp;
-  <img src="https://img.shields.io/github/stars/LessUp?affiliations=OWNER&style=flat-square&color=dbab09&logo=github" alt="Stars" />
-  &nbsp;
-  <img src="https://komarev.com/ghpvc/?username=LessUp&label=Profile%20views&color=0077b6&style=flat-square" alt="Views" />
-  &nbsp;
-  <img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FLessUp%2FLessUp&label=Visitors&countColor=%23e76f51&style=flat-square&labelColor=%23555555" alt="Visitors" />
-  <br/>
   <p>
-    <a href="#about">About</a> ·
-    <a href="#projects">Projects</a> ·
-    <a href="#experience">Experience</a> ·
-    <a href="#tech-stack">Tech Stack</a> ·
-    <a href="#stats">Stats</a> ·
-    <a href="#contact">Contact</a>
+    <a href="#about"><img src="https://img.shields.io/badge/-About-0077b6?style=flat-square" alt="About"/></a>&nbsp;
+    <a href="#projects"><img src="https://img.shields.io/badge/-Projects-00b4d8?style=flat-square" alt="Projects"/></a>&nbsp;
+    <a href="#experience"><img src="https://img.shields.io/badge/-Experience-90e0ef?style=flat-square&logoColor=000" alt="Experience"/></a>&nbsp;
+    <a href="#tech-stack"><img src="https://img.shields.io/badge/-Tech_Stack-0077b6?style=flat-square" alt="Tech Stack"/></a>&nbsp;
+    <a href="#stats"><img src="https://img.shields.io/badge/-Stats-00b4d8?style=flat-square" alt="Stats"/></a>&nbsp;
+    <a href="#contact"><img src="https://img.shields.io/badge/-Contact-e76f51?style=flat-square" alt="Contact"/></a>
   </p>
 </div>
 
@@ -42,27 +48,33 @@
 ---
 
 <a id="about"></a>
-### 👨‍💻 About Me / 关于我
+
+<h3>👨‍💻 About Me / 关于我</h3>
+
+<img align="right" width="300" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=donut-vertical&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=00000000" alt="Top Languages" />
 
 > I build AI infrastructure and high-performance systems with C++/CUDA, Python, and Go.  
 > 主要关注 AI 基础设施、GPU 算子优化与高性能计算等方向的工程实践。
 
-- **GPU Kernel Engineering**: CUDA/Triton kernel optimization, FlashAttention, GEMM, quantization / GPU 算子优化
-- **AI Inference Systems**: LLM inference engines, model quantization (W8A16/FP8), KV Cache / AI 推理系统
-- **High-Performance Computing**: N-body simulation, ray tracing, image processing pipelines / 高性能计算
-- **Real-time Systems**: WebRTC signaling, real-time detection, digital human platform / 实时系统
+- 🔥 **GPU Kernel Engineering** — CUDA/Triton kernel optimization, FlashAttention, GEMM, quantization
+- 🧠 **AI Inference Systems** — LLM inference engines, model quantization (W8A16/FP8), KV Cache
+- ⚡ **High-Performance Computing** — N-body simulation, ray tracing, image processing pipelines
+- 🌐 **Real-time Systems** — WebRTC signaling, real-time detection, digital human platform
+
+<br clear="both"/>
 
 ---
 
 <a id="projects"></a>
-### 🚀 Projects / 项目全景
 
-#### ⚡ GPU Kernel Optimization / GPU 算子优化
+<h3>🚀 Projects / 项目全景</h3>
+
+<h4>⚡ GPU Kernel Optimization / GPU 算子优化</h4>
 
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/modern-ai-kernels">TensorCraft-HPC</a></h4>
+      <h4><a href="https://github.com/LessUp/modern-ai-kernels">🔷 TensorCraft-HPC</a></h4>
       <p>Modern C++17/CUDA AI kernel library — Elementwise, GEMM, FlashAttention, Conv2D, SpMV, FP8 quantization</p>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
@@ -71,7 +83,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/sgemm-optimization">SGEMM Optimization</a></h4>
+      <h4><a href="https://github.com/LessUp/sgemm-optimization">🔷 SGEMM Optimization</a></h4>
       <p>From naive 3-loop to Tensor Core — progressive SGEMM optimization reaching 40% cuBLAS</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -82,7 +94,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/triton-fused-ops">Triton Fused Ops</a></h4>
+      <h4><a href="https://github.com/LessUp/triton-fused-ops">🔷 Triton Fused Ops</a></h4>
       <p>RMSNorm+RoPE fusion, Gated MLP fusion, FP8 GEMM with auto-tuning for Transformers</p>
       <p>
         <img src="https://img.shields.io/badge/Triton-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="Triton" />
@@ -91,7 +103,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/llm-speed">LLM-Speed</a></h4>
+      <h4><a href="https://github.com/LessUp/llm-speed">🔷 LLM-Speed</a></h4>
       <p>CUDA LLM kernel library — FlashAttention (online softmax), FP16/INT8 GEMM with Tensor Core</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -102,12 +114,12 @@
   </tr>
 </table>
 
-#### 🧠 AI Inference Engines / AI 推理引擎
+<h4>🧠 AI Inference Engines / AI 推理引擎</h4>
 
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/tiny-llm">Tiny-LLM</a></h4>
+      <h4><a href="https://github.com/LessUp/tiny-llm">🟢 Tiny-LLM</a></h4>
       <p>Lightweight LLM inference engine — W8A16 quantization, KV Cache, multi-sampling strategies</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -116,7 +128,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/mini-inference-engine">Mini Inference Engine</a></h4>
+      <h4><a href="https://github.com/LessUp/mini-inference-engine">🟢 Mini Inference Engine</a></h4>
       <p>7-level GEMM optimization (Naive→Tensor Core), reaching 72% cuBLAS with MNIST demo</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -127,7 +139,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/tiny-dl-inference">Tiny-DL-Inference</a></h4>
+      <h4><a href="https://github.com/LessUp/tiny-dl-inference">🟢 Tiny-DL-Inference</a></h4>
       <p>WebGPU micro inference engine — Conv2d, kernel fusion, Im2Col, MNIST classification</p>
       <p>
         <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU" />
@@ -136,7 +148,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/YOLO-Toys">YOLO-Toys</a></h4>
+      <h4><a href="https://github.com/LessUp/YOLO-Toys">🟢 YOLO-Toys</a></h4>
       <p>Multi-model real-time vision — YOLO/DETR/OWL-ViT/BLIP with WebSocket streaming</p>
       <p>
         <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
@@ -147,12 +159,12 @@
   </tr>
 </table>
 
-#### 🎮 GPU Computing & Simulation / GPU 计算与仿真
+<h4>🎮 GPU Computing & Simulation / GPU 计算与仿真</h4>
 
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/ray-tracer">CUDA Ray Tracer</a></h4>
+      <h4><a href="https://github.com/LessUp/ray-tracer">🟠 CUDA Ray Tracer</a></h4>
       <p>Pure CUDA ray tracer — Phong shading, path tracing, BVH acceleration, warp divergence optimization</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -161,7 +173,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/n-body">N-Body Simulation</a></h4>
+      <h4><a href="https://github.com/LessUp/n-body">🟠 N-Body Simulation</a></h4>
       <p>Million-particle GPU simulation — Direct N², Barnes-Hut, Spatial Hash with CUDA-OpenGL interop</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -172,7 +184,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/particle-fluid-sim">Particle Fluid Sim</a></h4>
+      <h4><a href="https://github.com/LessUp/particle-fluid-sim">🟠 Particle Fluid Sim</a></h4>
       <p>10K-particle real-time fluid simulation using WebGPU compute shaders with trail effects</p>
       <p>
         <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU" />
@@ -181,7 +193,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/mini-opencv">Mini-OpenCV</a></h4>
+      <h4><a href="https://github.com/LessUp/mini-opencv">🟠 Mini-OpenCV</a></h4>
       <p>CUDA image processing library — convolution, morphology, geometric transforms, pipeline processing</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -192,7 +204,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/mini-image-pipe">Mini-ImagePipe</a></h4>
+      <h4><a href="https://github.com/LessUp/mini-image-pipe">🟠 Mini-ImagePipe</a></h4>
       <p>DAG-based heterogeneous image pipeline — multi-stream scheduling, pinned memory pool</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
@@ -204,12 +216,12 @@
   </tr>
 </table>
 
-#### 🌐 Applications / 应用项目
+<h4>🌐 Applications / 应用项目</h4>
 
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/MetaHuman">MetaHuman</a></h4>
+      <h4><a href="https://github.com/LessUp/MetaHuman">🟣 MetaHuman</a></h4>
       <p>3D digital human platform — Three.js rendering, voice interaction, behavior control, emotion FSM</p>
       <p>
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
@@ -218,7 +230,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/WebRTC">WebRTC</a></h4>
+      <h4><a href="https://github.com/LessUp/WebRTC">🟣 WebRTC</a></h4>
       <p>Minimal WebRTC demo — Go WebSocket signaling, room management, peer-to-peer media</p>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
@@ -229,7 +241,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/sync-notes">Note Sync Now</a></h4>
+      <h4><a href="https://github.com/LessUp/sync-notes">🟣 Note Sync Now</a></h4>
       <p>E2E encrypted note sync — AES-256, 12-word mnemonic, real-time collaboration via WebSocket</p>
       <p>
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
@@ -238,7 +250,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/mind-gym">Mind Gym</a></h4>
+      <h4><a href="https://github.com/LessUp/mind-gym">🟣 Mind Gym</a></h4>
       <p>Browser-based memory training — N-back, spaced reinforcement, adaptive difficulty, PWA</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
@@ -252,7 +264,8 @@
 ---
 
 <a id="experience"></a>
-### 🎓 Education & Experience / 教育与经历
+
+<h3>🎓 Education & Experience / 教育与经历</h3>
 
 <table>
   <tr>
@@ -267,9 +280,9 @@
     <td width="50%">
       <h4>💼 Experience</h4>
       <p>
-        <img src="https://logo.clearbit.com/mindray.com" height="18" alt="Mindray"/> Mindray ·
-        <img src="https://logo.clearbit.com/zego.im" height="18" alt="ZEGO"/> ZEGO ·
-        <img src="https://logo.clearbit.com/genomics.cn" height="18" alt="BGI"/> BGI
+        <img src="https://logo.clearbit.com/mindray.com" height="18" alt="Mindray"/> <b>Mindray</b> ·
+        <img src="https://logo.clearbit.com/zego.im" height="18" alt="ZEGO"/> <b>ZEGO</b> ·
+        <img src="https://logo.clearbit.com/genomics.cn" height="18" alt="BGI"/> <b>BGI</b>
       </p>
       <p>Medical imaging, RTC & Genomic data. / 医疗、音视频与基因数据工程</p>
     </td>
@@ -279,7 +292,10 @@
 ---
 
 <a id="tech-stack"></a>
-### 🛠️ Tech Stack / 技术栈
+
+<h3>🛠️ Tech Stack / 技术栈</h3>
+
+<div align="center">
 
 | **Category** | **Technologies** |
 | :--- | :--- |
@@ -288,47 +304,64 @@
 | **System &amp; DevOps** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,cmake,nginx" alt="System"/> |
 | **Web &amp; Frontend** | <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,threejs" alt="Web"/> |
 
+</div>
+
 ---
 
 <a id="stats"></a>
-### 📊 GitHub Stats / 数据概览
+
+<h3>📊 GitHub Stats / 数据概览</h3>
+
+<div align="center">
+
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=00000000&rank_icon=github" alt="LessUp's GitHub stats" />
+  &nbsp;
+  <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=00000000&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+<br/>
+
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=LessUp&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=10" alt="GitHub Trophy" />
+  </a>
+</div>
+
+<br/>
 
 <details>
-  <summary>Show stats / 展开数据</summary>
-
+  <summary>📈 More Stats / 更多数据</summary>
+  <br/>
   <div align="center">
-    <p>
-      <img height="180" src="https://github-readme-stats.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=ffffff" alt="LessUp's GitHub stats" />
-      <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LessUp&layout=compact&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=ffffff" alt="Top Languages" />
-    </p>
-  </div>
-
-  <div align="center">
-    <p>
-      <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=ffffff" alt="GitHub Streak" />
-    </p>
-    <p>
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=ffffff&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
-    </p>
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef" alt="GitHub Activity Graph"/>
   </div>
 </details>
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/LessUp/LessUp/output/github-snake-dark.svg" alt="Snake animation" />
+</div>
+
+---
+
 <a id="contact"></a>
-### 📫 Connect with me / 联系方式
 
-Feel free to reach out for collaboration, technical discussions, or open-source ideas.
+<h3>📫 Connect with me / 联系方式</h3>
 
+<p>
+Feel free to reach out for collaboration, technical discussions, or open-source ideas.<br/>
 欢迎通过邮箱与我交流技术想法、合作机会或开源项目。
+</p>
 
 <div align="left">
   <a href="mailto:jiashuai.shi@qq.com">
-    <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-FF5722?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-jiashuai.shi%40qq.com-FF5722?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
   &nbsp;
   <a href="https://github.com/LessUp">
-    <img src="https://img.shields.io/badge/GitHub-LessUp-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub"/>
+    <img src="https://img.shields.io/badge/GitHub-LessUp-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </div>
 
