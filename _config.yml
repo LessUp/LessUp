@@ -1,11 +1,42 @@
 title: LessUp
-description: AI Infrastructure & HPC Developer
+description: AI Infrastructure & HPC Developer — CUDA Kernels, LLM Inference, Systems Programming
 remote_theme: pages-themes/cayman@v0.2.0
-
-url: "https://lessup.github.io"
-baseurl: "/LessUp"
-lang: en
-
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
+repository: LessUp/LessUp
+show_downloads: false
+
+# SEO & metadata
+url: https://lessup.github.io
+baseurl: /LessUp
+lang: en
+author: LessUp
+
+# Markdown rendering
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+# Default layout for all pages
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: "changelog"
+    values:
+      layout: default
+
+# Exclude irrelevant files from Jekyll build
+exclude:
+  - .git
+  - .github
+  - .vscode
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor
