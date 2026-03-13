@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip show deepwiki)",
+      "Bash(npm search:*)",
+      "Bash(pip:*)",
+      "Bash(npm install:*)",
+      "Bash(deepwiki --help:*)",
+      "Bash(npx deepwiki --help:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
