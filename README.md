@@ -241,7 +241,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/sync-notes">🟣 Note Sync Now</a></h4>
+      <h4><a href="https://github.com/LessUp/brave-sync-notes">🟣 Note Sync Now</a></h4>
       <p>E2E encrypted note sync — AES-256, 12-word mnemonic, real-time collaboration via WebSocket</p>
       <p>
         <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
