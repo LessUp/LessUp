@@ -51,7 +51,7 @@
 
 <h3>👨‍💻 About Me / 关于我</h3>
 
-<img align="right" width="300" src="https://github-readme-stats-six-iota-99.vercel.app/api/top-langs/?username=LessUp&layout=donut-vertical&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=00000000&cache_seconds=86400" alt="Top Languages" />
+<img align="right" width="300" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=LessUp&layout=donut-vertical&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&bg_color=00000000&cache_seconds=86400" alt="Top Languages" />
 
 > I build AI infrastructure and GPU-first high-performance systems with C++/CUDA, Python, and Go.
 > 主要聚焦 AI 基础设施、GPU 算子优化与高性能系统工程实践。
@@ -303,7 +303,7 @@
     <td width="50%">
       <h4>🎓 Education</h4>
       <p>
-        <img src="https://logo.clearbit.com/xidian.edu.cn" height="18" alt="Xidian University"/>
+        <img src="https://favicon.im/xidian.edu.cn" height="18" alt="Xidian University"/>
         <b>Xidian University</b>
       </p>
       <p>Background in communications engineering. / 通信与信息工程相关背景</p>
@@ -311,9 +311,9 @@
     <td width="50%">
       <h4>💼 Experience</h4>
       <p>
-        <img src="https://logo.clearbit.com/mindray.com" height="18" alt="Mindray"/> <b>Mindray</b> ·
-        <img src="https://logo.clearbit.com/zego.im" height="18" alt="ZEGO"/> <b>ZEGO</b> ·
-        <img src="https://logo.clearbit.com/genomics.cn" height="18" alt="BGI"/> <b>BGI</b>
+        <img src="https://favicon.im/mindray.com" height="18" alt="Mindray"/> <b>Mindray</b> ·
+        <img src="https://favicon.im/zego.im" height="18" alt="ZEGO"/> <b>ZEGO</b> ·
+        <img src="https://favicon.im/genomics.cn" height="18" alt="BGI"/> <b>BGI</b>
       </p>
       <p>Engineering across medical imaging, RTC systems, and genomic-scale data workflows. / 覆盖医疗影像、实时音视频系统与基因数据工程。</p>
     </td>
@@ -345,7 +345,7 @@
 
 <div align="center">
 
-  <img height="180" src="https://github-readme-stats-six-iota-99.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=00000000&rank_icon=github&cache_seconds=86400" alt="LessUp's GitHub stats" />
+  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=00000000&rank_icon=github&cache_seconds=86400" alt="LessUp's GitHub stats" />
   &nbsp;
   <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=00000000&hide_border=true" alt="GitHub Streak" />
 
@@ -358,7 +358,7 @@
   <br/>
   <div align="center">
     <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy-silk-ten.vercel.app/?username=LessUp&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=10" alt="GitHub Trophy" />
+      <img src="https://github-profile-trophy.vercel.app/?username=LessUp&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=10" alt="GitHub Trophy" />
     </a>
   </div>
 
