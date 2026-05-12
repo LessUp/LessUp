@@ -72,7 +72,7 @@
 <h3>🚀 Selected Work / 项目全景</h3>
 
 <blockquote>
-  <b>Featured Projects / 核心项目</b> — Start here for the quickest overview of my work in CUDA kernels, inference systems, HPC simulation, and production-facing applications.<br/>
+  <b>Featured Projects / 核心项目</b> — Start here for the quickest overview of my work in bioinformatics, HPC, AI inference, and developer tooling.<br/>
   如果你想快速判断我的技术重心与代表作，建议先看下面 4 个项目。<br/>
   <sub>Best entry points for collaboration, hiring conversations, and technical review.</sub>
 </blockquote>
@@ -80,170 +80,202 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/modern-ai-kernels">⭐ TensorCraft-HPC</a></h4>
-      <p>Flagship CUDA kernel library covering GEMM, FlashAttention, Conv2D, SpMV, and FP8 quantization.</p>
+      <h4><a href="https://github.com/LessUp/awesome-cursorrules-zh">⭐ Awesome CursorRules 中文</a></h4>
+      <p>🇨🇳 Cursor AI .cursorrules 规则精选集合 · 132+ 规则 · 32 领域 · 双语站点</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LessUp/awesome-cursorrules-zh?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/tiny-llm">⭐ Tiny-LLM</a></h4>
-      <p>Compact LLM inference engine focused on W8A16 quantization, KV Cache, and practical runtime design.</p>
+      <h4><a href="https://github.com/LessUp/meta-human">⭐ Meta Human</a></h4>
+      <p>Browser-native 3D digital human engine with voice, vision & dialogue. Zero-config, offline-ready.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LessUp/meta-human?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/n-body">⭐ N-Body Simulation</a></h4>
-      <p>Million-particle GPU simulation exploring direct N², Barnes-Hut, and CUDA-OpenGL interop.</p>
+      <h4><a href="https://github.com/LessUp/micos-2024">⭐ MICOS-2024</a></h4>
+      <p>端到端宏基因组综合分析平台 | End-to-end Metagenomic Intelligence and Comprehensive Omics Suite</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LessUp/micos-2024?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R" />
+      </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/MetaHuman">⭐ MetaHuman</a></h4>
-      <p>3D digital human platform combining real-time rendering, interaction, and behavior control.</p>
+      <h4><a href="https://github.com/LessUp/fq-compressor">⭐ FASTQ Compressor</a></h4>
+      <p>High-performance FASTQ compression with 3.97x ratio and O(1) random access. C++23, ABC+SCM algorithms.</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LessUp/fq-compressor?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
+      </p>
     </td>
   </tr>
 </table>
 
-<h4>⚡ GPU Kernel Optimization / GPU 算子优化</h4>
+<h4>🧬 Bioinformatics & Genomics / 生物信息学</h4>
 
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/modern-ai-kernels">🔷 TensorCraft-HPC</a></h4>
-      <p>Modern C++17/CUDA kernel library for elementwise ops, GEMM, FlashAttention, Conv2D, SpMV, and FP8 quantization.</p>
+      <h4><a href="https://github.com/LessUp/wiki-bioinfo">🟢 Wiki-Bioinfo</a></h4>
+      <p>面向中文社区的生物信息学体系化知识库 | Systematic knowledge base for bioinformatics (Chinese)</p>
       <p>
-        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
+        <img src="https://img.shields.io/badge/MDX-111827?style=flat-square" alt="MDX" />
+        <img src="https://img.shields.io/badge/Bioinformatics-4CC9F0?style=flat-square" alt="Bioinformatics" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/micos-2024">🟢 MICOS-2024</a></h4>
+      <p>端到端宏基因组综合分析平台 | Metagenomic Intelligence and Comprehensive Omics Suite</p>
+      <p>
+        <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R" />
+        <img src="https://img.shields.io/badge/Metagenomics-76B900?style=flat-square" alt="Metagenomics" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/fq-compressor">🟢 FASTQ Compressor</a></h4>
+      <p>High-performance FASTQ compression with 3.97x ratio and O(1) random access. C++23, ABC+SCM.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
+        <img src="https://img.shields.io/badge/oneTBB-0078D4?style=flat-square" alt="oneTBB" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/fastq-tools">🟢 FASTQ Tools</a></h4>
+      <p>High-performance FASTQ QC toolkit (stat/filter); zero-copy I/O, TBB pipeline, C++23.</p>
+      <p>
+        <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
+        <img src="https://img.shields.io/badge/Zero_Copy-4CC9F0?style=flat-square" alt="Zero-Copy" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/awesome-bioinfo-algorithms">🟢 Awesome Bioinfo Algorithms</a></h4>
+      <p>Curated bioinformatics algorithms knowledge base with complexity analysis, CLI tools, and bilingual docs.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Algorithms-E76F51?style=flat-square" alt="Algorithms" />
+      </p>
+    </td>
+    <td></td>
+  </tr>
+</table>
+
+<h4>⚡ CUDA & HPC / 高性能计算</h4>
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/sgemm-optimization">🔷 SGEMM Optimization</a></h4>
+      <p>Bilingual CUDA SGEMM optimization tutorial, from naive kernels to Tensor Core WMMA.</p>
+      <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
         <img src="https://img.shields.io/badge/Tensor_Core-111827?style=flat-square&logo=nvidia&logoColor=white" alt="Tensor Core" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/sgemm-optimization">🔷 SGEMM Optimization</a></h4>
-      <p>Stepwise CUDA SGEMM optimization from naive loops to Tensor Core kernels, reaching 40% of cuBLAS.</p>
+      <h4><a href="https://github.com/LessUp/cpp-high-performance-guide">🔷 C++ High Performance Guide</a></h4>
+      <p>High-performance C++ optimization guide with lock-free data structures, SIMD, and memory optimization.</p>
       <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-        <img src="https://img.shields.io/badge/WMMA-111827?style=flat-square&logo=nvidia&logoColor=white" alt="WMMA" />
-        <img src="https://img.shields.io/badge/Roofline-4CC9F0?style=flat-square" alt="Roofline" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/triton-fused-ops">🔷 Triton Fused Ops</a></h4>
-      <p>Triton fusion kernels for RMSNorm+RoPE, Gated MLP, and FP8 GEMM with auto-tuning.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Triton-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="Triton" />
-        <img src="https://img.shields.io/badge/FP8-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="FP8" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      </p>
-    </td>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/llm-speed">🔷 LLM-Speed</a></h4>
-      <p>CUDA kernel playground for FlashAttention, FP16/INT8 GEMM, and Tensor Core inference primitives.</p>
-      <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-        <img src="https://img.shields.io/badge/FlashAttn-111827?style=flat-square" alt="FlashAttention" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-<h4>🧠 AI Inference Engines / AI 推理引擎</h4>
-
-<table>
-  <tr>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/tiny-llm">🟢 Tiny-LLM</a></h4>
-      <p>Lightweight LLM runtime with W8A16 quantization, KV Cache, and practical multi-sampling support.</p>
-      <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
-        <img src="https://img.shields.io/badge/INT8-4CC9F0?style=flat-square" alt="INT8" />
+        <img src="https://img.shields.io/badge/SIMD-4CC9F0?style=flat-square" alt="SIMD" />
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/mini-inference-engine">🟢 Mini Inference Engine</a></h4>
-      <p>Educational CUDA inference engine with seven GEMM optimization stages, reaching 72% of cuBLAS.</p>
+      <h4><a href="https://github.com/LessUp/bitcal">🔷 BitCal</a></h4>
+      <p>Archive-grade C++17 header-only library for SIMD-accelerated bit manipulation (SSE2/AVX2/AVX-512/NEON).</p>
       <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
-        <img src="https://img.shields.io/badge/FP16-76B900?style=flat-square" alt="FP16" />
+        <img src="https://img.shields.io/badge/SIMD-4CC9F0?style=flat-square" alt="SIMD" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/compress-kit">🔷 Compress Kit</a></h4>
+      <p>Classic lossless compression algorithms in C++17, Go, and Rust with cross-language binary verification.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/tiny-dl-inference">🟢 Tiny-DL-Inference</a></h4>
-      <p>WebGPU micro inference engine implementing Conv2d, kernel fusion, Im2Col, and MNIST classification.</p>
+      <h4><a href="https://github.com/LessUp/the-art-of-hpc-zh">🔷 The Art of HPC 中文翻译</a></h4>
+      <p>High-Performance Computing textbooks covering MPI, OpenMP, CUDA, and Scientific Computing | CC-BY 4.0</p>
       <p>
-        <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/WGSL-4CC9F0?style=flat-square" alt="WGSL" />
-      </p>
-    </td>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/YOLO-Toys">🟢 YOLO-Toys</a></h4>
-      <p>Real-time multi-model vision stack combining YOLO, DETR, OWL-ViT, BLIP, and WebSocket streaming.</p>
-      <p>
-        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-        <img src="https://img.shields.io/badge/YOLOv8-5E60CE?style=flat-square&logo=opencv&logoColor=white" alt="YOLOv8" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-      </p>
-    </td>
-  </tr>
-</table>
-
-<h4>🎮 GPU Computing & Simulation / GPU 计算与仿真</h4>
-
-<table>
-  <tr>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/ray-tracer">🟠 CUDA Ray Tracer</a></h4>
-      <p>CUDA ray tracer featuring Phong shading, path tracing, BVH acceleration, and warp-divergence tuning.</p>
-      <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-        <img src="https://img.shields.io/badge/Path_Tracing-E76F51?style=flat-square" alt="Path Tracing" />
-        <img src="https://img.shields.io/badge/BVH-4CC9F0?style=flat-square" alt="BVH" />
-      </p>
-    </td>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/n-body">🟠 N-Body Simulation</a></h4>
-      <p>Million-particle CUDA simulation covering direct N², Barnes-Hut, spatial hashing, and OpenGL interop.</p>
-      <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-        <img src="https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white" alt="OpenGL" />
-        <img src="https://img.shields.io/badge/Barnes--Hut-111827?style=flat-square" alt="Barnes-Hut" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/particle-fluid-sim">🟠 Particle Fluid Sim</a></h4>
-      <p>Real-time WebGPU fluid simulation with 10K particles, compute shaders, and visual trail effects.</p>
-      <p>
-        <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square&logo=webgpu&logoColor=white" alt="WebGPU" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/WGSL-4CC9F0?style=flat-square" alt="WGSL" />
-      </p>
-    </td>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/mini-opencv">🟠 Mini-OpenCV</a></h4>
-      <p>CUDA image-processing library covering convolution, morphology, geometric transforms, and pipeline stages.</p>
-      <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
-        <img src="https://img.shields.io/badge/Image_Processing-E76F51?style=flat-square" alt="Image Processing" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/mini-image-pipe">🟠 Mini-ImagePipe</a></h4>
-      <p>DAG-based heterogeneous image pipeline with multi-stream scheduling and pinned-memory pools.</p>
-      <p>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-        <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
-        <img src="https://img.shields.io/badge/DAG-4CC9F0?style=flat-square" alt="DAG" />
+        <img src="https://img.shields.io/badge/MPI-4CC9F0?style=flat-square" alt="MPI" />
+        <img src="https://img.shields.io/badge/OpenMP-76B900?style=flat-square" alt="OpenMP" />
       </p>
     </td>
     <td></td>
+  </tr>
+</table>
+
+<h4>🤖 AI & Developer Tooling / AI 与开发者工具</h4>
+
+<table>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/awesome-cursorrules-zh">🟣 Awesome CursorRules 中文</a></h4>
+      <p>🇨🇳 Cursor AI .cursorrules 规则精选集合 · 132+ 规则 · 32 领域 · 双语站点</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LessUp/awesome-cursorrules-zh?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/cursor-rules">🟣 Cursor Rules</a></h4>
+      <p>Archive-grade Cursor .mdc 规则库 | 26 个高质量规则，静态目录，低漂移设计</p>
+      <p>
+        <img src="https://img.shields.io/github/stars/LessUp/cursor-rules?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/awesome-claude-skills-zh">🟣 Awesome Claude Skills 中文</a></h4>
+      <p>精选的实用 Claude Skills 列表，助力 Claude.ai、Claude Code 和 Claude API 提升生产力</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square" alt="Claude" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/bookmarks-cleaner">🟣 Bookmarks Cleaner</a></h4>
+      <p>智能书签清理与分类：规则+ML+LLM（可选） | Offline-first bookmark cleaner</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/ML-FF6F61?style=flat-square" alt="ML" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/yolo-toys">🟣 YOLO-Toys</a></h4>
+      <p>多模型实时视觉识别系统 - 支持 YOLO、DETR、OWL-ViT、Grounding DINO、BLIP</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/YOLOv8-5E60CE?style=flat-square" alt="YOLOv8" />
+      </p>
+    </td>
+    <td width="50%">
+      <h4><a href="https://github.com/LessUp/graph-viewer">🟣 Graph Viewer</a></h4>
+      <p>Privacy-first diagram editor with local WASM rendering, Kroki full mode, sharing, and export.</p>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/WASM-654FF0?style=flat-square" alt="WASM" />
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -252,43 +284,32 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/MetaHuman">🟣 MetaHuman</a></h4>
-      <p>3D digital human platform integrating real-time rendering, voice interaction, behavior control, and emotion FSM.</p>
+      <h4><a href="https://github.com/LessUp/meta-human">🟣 Meta Human</a></h4>
+      <p>Browser-native 3D digital human engine with voice, vision & dialogue. Zero-config, offline-ready.</p>
       <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-        <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js" />
+        <img src="https://img.shields.io/github/stars/LessUp/meta-human?style=flat-square&logo=github" alt="Stars" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/WebRTC">🟣 WebRTC</a></h4>
-      <p>Minimal WebRTC demo with Go signaling, room management, and peer-to-peer media delivery.</p>
+      <h4><a href="https://github.com/LessUp/webrtc">🟣 WebRTC Demo</a></h4>
+      <p>轻量级 WebRTC 演示：Go 信令服务 + 原生 JavaScript 客户端，OpenSpec 驱动开发</p>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
         <img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white" alt="WebRTC" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/brave-sync-notes">🟣 Note Sync Now</a></h4>
-      <p>End-to-end encrypted note sync with AES-256, mnemonic recovery, and real-time collaboration.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-        <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-        <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO" />
-      </p>
-    </td>
-    <td width="50%">
       <h4><a href="https://github.com/LessUp/mind-gym">🟣 Mind Gym</a></h4>
-      <p>Browser-based memory training app with N-back, spaced reinforcement, adaptive difficulty, and PWA support.</p>
+      <p>🧠 Browser-based memory training PWA with FSRS-4.5 spaced repetition, N-back training, and adaptive difficulty</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
         <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA" />
       </p>
     </td>
+    <td></td>
   </tr>
 </table>
 
