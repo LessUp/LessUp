@@ -62,7 +62,7 @@ LessUp 是一个围绕 AI 基础设施、高性能计算与系统工程实践展
 | 概览 | [README](README.md) | GitHub Profile 展示页，包含项目全景、经历、技术栈与联系信息 |
 | 快速开始 | [GitHub 个人主页](https://github.com/LessUp) | 浏览全部公开仓库与最新动态 |
 | 使用指南 | [本页项目导航](index.md) | 按主题快速进入相关仓库继续阅读 |
-| 归档 | [changelog/CHANGELOG.md](changelog/CHANGELOG.md) | Profile 与 Pages 调整记录 |
+| 归档 | [CHANGELOG.md](CHANGELOG.md) | Profile 与 Pages 调整记录 |
 
 ## 归档与更新
 
