@@ -31,8 +31,6 @@ jobs:
             *.md
             _config.yml
             docs
-            changelog
-            LICENSE
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
