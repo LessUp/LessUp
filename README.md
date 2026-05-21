@@ -372,45 +372,6 @@
 
 </div>
 
-<br/>
-
-<details>
-  <summary>🏆 Highlights & More Stats / 高亮与更多数据</summary>
-  <br/>
-  <div align="center">
-    <a href="https://github.com/ryo-ma/github-profile-trophy">
-      <img src="https://github-profile-trophy.vercel.app/?username=LessUp&theme=flat&no-bg=true&no-frame=true&column=7&margin-w=10" alt="GitHub Trophy" />
-    </a>
-  </div>
-
-  <br/>
-
-  <details>
-    <summary>📈 Activity Graph / 活动图</summary>
-    <br/>
-    <div align="center">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef&custom_title=Public+Contributions+%28Last+31+Days%2C+UTC%29&cache_seconds=1800" alt="GitHub Activity Graph (public, UTC)"/>
-      <br/>
-      <sub>Public data only · UTC aggregation · may lag a few hours / 仅统计公开贡献、按 UTC 聚合，可能有数小时延迟</sub>
-    </div>
-  </details>
-</details>
-
----
-
-<details>
-  <summary>🧬 Visual Signature / 视觉标识</summary>
-  <br/>
-  <div align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/LessUp/LessUp/output/github-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/LessUp/LessUp/output/github-snake.svg" />
-      <img src="https://raw.githubusercontent.com/LessUp/LessUp/output/github-snake.svg" alt="Contribution snake animation" />
-    </picture>
-    <br/>
-    <sub>Auto-generated from public contributions and refreshed every 6 hours / 基于公开贡献生成，每 6 小时刷新一次</sub>
-  </div>
-</details>
 
 ---
 
