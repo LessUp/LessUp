@@ -1,8 +1,7 @@
 <div align="center">
-  <p>
-    <b>Building AI Infrastructure &amp; HPC Systems</b><br/>
-    CUDA Kernel Optimization | LLM Inference | GPU Computing
-  </p>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=1&pause=100000000&color=0077B6&center=true&vCenter=true&multiline=true&repeat=false&width=680&height=80&lines=Building+AI+Infrastructure+%26+HPC+Systems;CUDA+Kernel+Optimization+%7C+LLM+Inference+%7C+GPU+Computing" alt="Static title" />
+  </a>
 
   <br/>
 
