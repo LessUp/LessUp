@@ -1,11 +1,8 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0077b6,00b4d8,90e0ef&height=220&section=header&text=Hi,%20I'm%20LessUp&fontSize=70&animation=fadeIn&fontAlignY=30&desc=AI%20Infrastructure%20%26%20HPC%20Developer&descAlignY=58&descAlign=60&fontColor=ffffff" width="100%" alt="Header" />
-
-  <br/>
-
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=1000&color=0077B6&center=true&vCenter=true&multiline=true&repeat=true&width=680&height=80&lines=Building+AI+Infrastructure+%26+HPC+Systems;CUDA+Kernel+Optimization+%7C+LLM+Inference+%7C+GPU+Computing" alt="Typing SVG" />
-  </a>
+  <p>
+    <b>Building AI Infrastructure &amp; HPC Systems</b><br/>
+    CUDA Kernel Optimization | LLM Inference | GPU Computing
+  </p>
 
   <br/>
 
