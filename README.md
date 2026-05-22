@@ -52,10 +52,10 @@
 > I build AI infrastructure and GPU-first high-performance systems with C++/CUDA, Python, and Go.
 > 主要聚焦 AI 基础设施、GPU 算子优化与高性能系统工程实践。
 
-- 🔥 **GPU Kernel Engineering** — CUDA/Triton kernels for FlashAttention, GEMM, quantization, and memory-aware operator design<br/><sub>GPU 算子工程 — FlashAttention、GEMM、量化与内存感知算子设计</sub>
-- 🧠 **AI Inference Systems** — lightweight LLM runtimes, KV Cache, W8A16/FP8 quantization, and inference path optimization<br/><sub>AI 推理系统 — 轻量 LLM 运行时、KV Cache、量化方案与推理路径优化</sub>
-- ⚡ **High-Performance Computing** — simulation, rendering, and image-processing pipelines tuned for throughput and scalability<br/><sub>高性能计算 — 面向吞吐与可扩展性的仿真、渲染与图像处理流水线</sub>
-- 🌐 **Real-time Systems** — RTC signaling, streaming applications, and digital human platforms with system-level integration<br/><sub>实时系统 — RTC 信令、流媒体应用与数字人平台的系统级集成</sub>
+- 🔥 **GPU Kernel Engineering** — CUDA/Triton kernels for FlashAttention, GEMM, quantization, and memory-aware operator design<br/>GPU 算子工程 — FlashAttention、GEMM、量化与内存感知算子设计
+- 🧠 **AI Inference Systems** — lightweight LLM runtimes, KV Cache, W8A16/FP8 quantization, and inference path optimization<br/>AI 推理系统 — 轻量 LLM 运行时、KV Cache、量化方案与推理路径优化
+- ⚡ **High-Performance Computing** — simulation, rendering, and image-processing pipelines tuned for throughput and scalability<br/>高性能计算 — 面向吞吐与可扩展性的仿真、渲染与图像处理流水线
+- 🌐 **Real-time Systems** — RTC signaling, streaming applications, and digital human platforms with system-level integration<br/>实时系统 — RTC 信令、流媒体应用与数字人平台的系统级集成
 
 > **Currently / 当前关注**: inference acceleration, kernel fusion, and end-to-end GPU system design.<br/>
 > 推理加速、算子融合与端到端 GPU 系统设计。
