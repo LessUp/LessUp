@@ -328,7 +328,7 @@
     <td width="50%">
       <h4>🎓 Education</h4>
       <p>
-        <img src="https://www.google.com/s2/favicons?domain=xidian.edu.cn&sz=64" height="18" alt="Xidian University"/>
+        <img src="https://www.xidian.edu.cn/favicon.ico" height="18" alt="Xidian University"/>
         <b>Xidian University</b>
       </p>
       <p>Background in communications engineering. / 计算机科学相关背景</p>
@@ -353,13 +353,14 @@
 
 <div align="center">
 
+> 聚焦与核心项目强相关的技术：AI Infrastructure · CUDA Kernel Engineering · LLM Inference · HPC Systems
+
 | **Category** | **Technologies** |
 | :--- | :--- |
-| **Core Languages** | <img src="https://skillicons.dev/icons?i=cpp,c,python,rust,go,js,ts,r,bash" alt="Languages"/> &nbsp; MDX · WDL |
-| **AI &amp; HPC** | CUDA · Tensor Core WMMA · SIMD (SSE/AVX/NEON) · Intel oneTBB · Quantization · YOLO / DETR / OWL-ViT / Grounding DINO / BLIP |
-| **Bioinformatics** | FASTQ compression &amp; QC pipelines · Metagenomics workflows |
-| **System &amp; Backend** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,cmake" alt="System"/> &nbsp; WebRTC · WebSocket streaming · REST API · Performance tuning |
-| **Web &amp; Applications** | <img src="https://skillicons.dev/icons?i=ts,js,vite,threejs,html,css" alt="Web"/> &nbsp; PWA · WASM rendering · Browser-native 3D visualization |
+| **AI Infrastructure** | <img src="https://skillicons.dev/icons?i=python,go,linux,docker,cmake,git" alt="AI Infrastructure"/> |
+| **CUDA Kernel Engineering** | <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA"/> <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/> <img src="https://img.shields.io/badge/Tensor%20Core%20WMMA-111827?style=flat-square&logo=nvidia&logoColor=white" alt="Tensor Core WMMA"/> <img src="https://img.shields.io/badge/FlashAttention-E76F51?style=flat-square" alt="FlashAttention"/> |
+| **LLM Inference Optimization** | <img src="https://img.shields.io/badge/Triton-412991?style=flat-square" alt="Triton"/> <img src="https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="TensorRT"/> <img src="https://img.shields.io/badge/KV%20Cache-0077B6?style=flat-square" alt="KV Cache"/> <img src="https://img.shields.io/badge/W8A16%20%2F%20FP8-00B4D8?style=flat-square" alt="W8A16 / FP8"/> |
+| **HPC Performance Engineering** | <img src="https://img.shields.io/badge/SIMD%20(SSE%2FAVX%2FNEON)-4CC9F0?style=flat-square" alt="SIMD"/> <img src="https://img.shields.io/badge/Intel%20oneTBB-0071C5?style=flat-square&logo=intel&logoColor=white" alt="Intel oneTBB"/> <img src="https://img.shields.io/badge/Memory%20Optimization-2A9D8F?style=flat-square" alt="Memory Optimization"/> <img src="https://img.shields.io/badge/Performance%20Profiling-264653?style=flat-square" alt="Performance Profiling"/> |
 
 </div>
 
