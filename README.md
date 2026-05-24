@@ -328,17 +328,17 @@
     <td width="50%">
       <h4>🎓 Education</h4>
       <p>
-        <img src="https://favicon.im/xidian.edu.cn" height="18" alt="Xidian University"/>
+        <img src="https://www.google.com/s2/favicons?domain=xidian.edu.cn&sz=64" height="18" alt="Xidian University"/>
         <b>Xidian University</b>
       </p>
-      <p>Background in communications engineering. / 通信与信息工程相关背景</p>
+      <p>Background in communications engineering. / 计算机科学相关背景</p>
     </td>
     <td width="50%">
       <h4>💼 Experience</h4>
       <p>
-        <img src="https://favicon.im/mindray.com" height="18" alt="Mindray"/> <b>Mindray</b> ·
-        <img src="https://favicon.im/zego.im" height="18" alt="ZEGO"/> <b>ZEGO</b> ·
-        <img src="https://favicon.im/genomics.cn" height="18" alt="BGI"/> <b>BGI</b>
+        <img src="https://www.google.com/s2/favicons?domain=mindray.com&sz=64" height="18" alt="Mindray"/> <b>Mindray</b> ·
+        <img src="https://www.google.com/s2/favicons?domain=zego.im&sz=64" height="18" alt="ZEGO"/> <b>ZEGO</b> ·
+        <img src="https://www.google.com/s2/favicons?domain=genomics.cn&sz=64" height="18" alt="BGI"/> <b>BGI</b>
       </p>
       <p>Engineering across medical imaging, RTC systems, and genomic-scale data workflows. / 覆盖医疗影像、实时音视频系统与基因数据工程。</p>
     </td>
@@ -355,10 +355,11 @@
 
 | **Category** | **Technologies** |
 | :--- | :--- |
-| **Languages** | <img src="https://skillicons.dev/icons?i=cpp,c,python,rust,go,bash" alt="Languages"/> |
-| **AI &amp; HPC** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" alt="AI"/> &nbsp; CUDA · Triton · cuBLAS · Tensor Core · WebGPU · Quantization |
-| **System &amp; DevOps** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,cmake,nginx" alt="System"/> &nbsp; Inference pipelines · Performance tuning |
-| **Web &amp; Frontend** | <img src="https://skillicons.dev/icons?i=react,ts,vite,tailwind,threejs" alt="Web"/> &nbsp; Real-time apps · Visualization |
+| **Core Languages** | <img src="https://skillicons.dev/icons?i=cpp,c,python,rust,go,js,ts,r,bash" alt="Languages"/> &nbsp; MDX · WDL |
+| **AI &amp; HPC** | CUDA · Tensor Core WMMA · SIMD (SSE/AVX/NEON) · Intel oneTBB · Quantization · YOLO / DETR / OWL-ViT / Grounding DINO / BLIP |
+| **Bioinformatics** | FASTQ compression &amp; QC pipelines · Metagenomics workflows |
+| **System &amp; Backend** | <img src="https://skillicons.dev/icons?i=linux,docker,git,github,cmake" alt="System"/> &nbsp; WebRTC · WebSocket streaming · REST API · Performance tuning |
+| **Web &amp; Applications** | <img src="https://skillicons.dev/icons?i=ts,js,vite,threejs,html,css" alt="Web"/> &nbsp; PWA · WASM rendering · Browser-native 3D visualization |
 
 </div>
 
