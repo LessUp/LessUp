@@ -26,10 +26,6 @@ defaults:
       path: ""
     values:
       layout: default
-  - scope:
-      path: "changelog"
-    values:
-      layout: default
 
 # Exclude irrelevant files from Jekyll build
 exclude:

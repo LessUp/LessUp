@@ -77,19 +77,19 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/awesome-cursorrules-zh">⭐ Awesome CursorRules 中文</a></h4>
-      <p>Cursor AI 编程规则精选集 | 132+ 规则，覆盖前端/后端/AI/DevOps 等 32 个领域</p>
+      <h4><a href="https://github.com/LessUp/fq-compressor">⭐ FASTQ Compressor</a></h4>
+      <p>High-performance FASTQ compression with 3.97x ratio and O(1) random access. C++23, ABC+SCM algorithms.<br/>高性能 FASTQ 压缩：3.97x 压缩比，O(1) 随机访问，C++23 + oneTBB。</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/awesome-cursorrules-zh?style=flat-square&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/github/stars/LessUp/fq-compressor?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/meta-human">⭐ Meta Human</a></h4>
-      <p>Browser-native 3D digital human engine with voice, vision & dialogue. Zero-config, offline-ready.<br/>浏览器原生 3D 数字人引擎，支持语音、视觉与对话。零配置、离线可用。</p>
+      <h4><a href="https://github.com/LessUp/fastq-tools">⭐ FASTQ Tools</a></h4>
+      <p>High-performance FASTQ QC toolkit (stat/filter/trim); zero-copy I/O, TBB pipeline, C++23.<br/>高性能 FASTQ 质控工具：零拷贝 I/O、TBB 流水线、C++23。</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/meta-human?style=flat-square&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/github/stars/LessUp/fastq-tools?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
       </p>
     </td>
   </tr>
@@ -103,11 +103,11 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/fq-compressor">⭐ FASTQ Compressor</a></h4>
-      <p>High-performance FASTQ compression with 3.97x ratio and O(1) random access. C++23, ABC+SCM algorithms.<br/>高性能 FASTQ 压缩工具：3.97x 压缩比，O(1) 随机访问。</p>
+      <h4><a href="https://github.com/LessUp/wiki-bioinfo">⭐ Wiki-Bioinfo</a></h4>
+      <p>Systematic knowledge base for bioinformatics (Chinese community)<br/>面向中文社区的生物信息学体系化知识库</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/fq-compressor?style=flat-square&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
+        <img src="https://img.shields.io/github/stars/LessUp/wiki-bioinfo?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/badge/MDX-111827?style=flat-square" alt="MDX" />
       </p>
     </td>
   </tr>
@@ -331,7 +331,7 @@
         <img src="https://www.xidian.edu.cn/favicon.ico" height="18" alt="Xidian University"/>
         <b>Xidian University</b>
       </p>
-      <p>Background in communications engineering. / 计算机科学相关背景</p>
+      <p>Computer Science related background. / 计算机科学相关背景</p>
     </td>
     <td width="50%">
       <h4>💼 Experience</h4>
@@ -373,8 +373,16 @@
 <div align="center">
 
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api?username=LessUp&show_icons=true&theme=default&locale=en&hide_border=true&title_color=0077b6&text_color=555555&icon_color=0077b6&bg_color=00000000&rank_icon=github&cache_seconds=86400" alt="LessUp's GitHub stats" />
-  &nbsp;
-  <img src="https://streak-stats.demolab.com?user=LessUp&theme=default&locale=en&date_format=M%20j%5B%2C%20Y%5D&fire=e76f51&ring=e76f51&currStreakLabel=0077b6&sideNums=0077b6&sideLabels=555555&dates=555555&background=00000000&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=LessUp&hide_border=true&bg_color=00000000&color=555555&line=00b4d8&point=0077b6&area=true&area_color=90e0ef&custom_title=Public+Contributions+%28Last+31+Days%2C+UTC%29&cache_seconds=1800" alt="GitHub Activity Graph (public, UTC)"/>
+  <br/>
+  <sub>Public data only · UTC aggregation · may lag a few hours / 仅统计公开贡献、按 UTC 聚合，可能有数小时延迟</sub>
 
 </div>
 

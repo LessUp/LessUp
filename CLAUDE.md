@@ -11,9 +11,8 @@ This is a **GitHub Profile Repository** for LessUp, an AI Infrastructure & HPC D
 ```
 /home/shane/lessup/LessUp/
 ├── README.md              # Main profile page (visual showcase)
-├── changelog/
-│   └── CHANGELOG.md      # Version history and updates
-└── .git/                 # Git repository
+├── CHANGELOG.md           # Version history and updates
+└── .git/                  # Git repository
 ```
 
 ## Key Files
@@ -24,7 +23,7 @@ This is a **GitHub Profile Repository** for LessUp, an AI Infrastructure & HPC D
 - Uses GitHub profile README features (activity graphs, stats widgets, etc.)
 - **Note**: This is NOT a code file - it's a visual presentation document
 
-### changelog/CHANGELOG.md
+### CHANGELOG.md
 - Tracks changes to the profile page
 - Documents additions, modifications, and updates
 - Uses standard [Keep a Changelog](https://keepachangelog.com/) format
@@ -38,7 +37,7 @@ Since this is a static profile repository:
 1. **Updating Profile Content**
    - Edit README.md to modify personal information, projects, or stats
    - Follow the existing structure and visual formatting
-   - Update changelog/CHANGELOG.md with each modification
+   - Update CHANGELOG.md with each modification
 
 2. **Adding New Projects**
    - Add project cards in the "Featured Projects" section
@@ -49,6 +48,11 @@ Since this is a static profile repository:
    - Modify the About, Now, or Tech Stack sections as needed
    - Ensure consistency with English/Chinese bilingual format
    - Keep visual elements (badges, images) properly formatted
+
+4. **Updating CHANGELOG**
+   - Add entries to CHANGELOG.md for all significant changes
+   - Follow the existing date format (YYYY-MM-DD)
+   - Briefly describe what was changed and why
 
 ### No Build Process
 
@@ -63,7 +67,7 @@ This repository does not include:
 - **Language**: The README uses English as primary language with Chinese translations for key sections
 - **Visual Elements**: README heavily relies on images, badges, and GitHub widgets
 - **Content Type**: This is content/documentation, not application code
-- **Changes**: All modifications should be logged in changelog/CHANGELOG.md
+- **Changes**: All modifications should be logged in CHANGELOG.md
 
 ## Git Workflow
 
