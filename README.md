@@ -118,19 +118,12 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/ai-infra-interview-prep">📋 AI Infra Interview Prep</a></h4>
-      <p>3-month AI Infra interview preparation: roadmap, weekly study plan, knowledge map & notes.<br/>3 个月 AI Infra 面试准备：学习路线图、每周学习计划、知识图谱与笔记</p>
+      <h4><a href="https://github.com/LessUp/ai-infra-interview-prep">📋 AI Infra Interview Prep Hub</a></h4>
+      <p>3-month AI Infra interview preparation + GitHub repos navigation & deep-dive guides.<br/>3 个月 AI Infra 面试准备 · 全部仓库导航与分类 · 21 个仓库深度学习指南</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
         <img src="https://img.shields.io/badge/LLM_Inference-0077B6?style=flat-square" alt="LLM Inference" />
-      </p>
-    </td>
-    <td width="50%">
-      <h4><a href="https://github.com/LessUp/github-repos-hub">🗺️ GitHub Repos Hub</a></h4>
-      <p>Navigation & classification index of all my GitHub repos, with recommended reading order.<br/>全部 GitHub 仓库导航与分类索引，含建议阅读顺序</p>
-      <p>
-        <img src="https://img.shields.io/badge/AI_Infra-2A9D8F?style=flat-square" alt="AI Infra" />
-        <img src="https://img.shields.io/badge/Repository_Index-264653?style=flat-square" alt="Repository Index" />
+        <img src="https://img.shields.io/badge/21_Deep_Dives-2A9D8F?style=flat-square" alt="Deep Dives" />
       </p>
     </td>
   </tr>
