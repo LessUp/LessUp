@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-19
+- 修复全部迁移前仓库链接：5 个自动重定向链接（fq-compressor、fastq-tools、micos-2024、awesome-bioinfo-algorithms、awesome-compression）与 8 个重定向失效链接（wiki-bioinfo、compress-kit、bookmarks-cleaner、graph-viewer、meta-human、mind-gym、yolo-toys、webrtc）改为规范组织地址，stars badge 同步更新
+- 移除 4 个已删除仓库的展示（sgemm-optimization、the-art-of-hpc-zh、cursor-rules、awesome-claude-skills-zh），用现存仓库卡片（cudaimg、TensorTonic-Solutions、bookmarks-manager、brave-sync-notes）替换
+- 新增"AI Infra 五仓作品集（open-infra-ai）"区块：cuda-foundations、cuflash-attn、triton-fused-ops、tiny-llm、paged-infer、aicl-lab
+- index.md 核心仓库表更新为 open-infra-ai 作品集 + 规范链接
+- 建议手动 Pin：cuflash-attn、tiny-llm、paged-infer、cuda-foundations、triton-fused-ops、fq-compressor（API 无法修改 Pinned items）
+
 ## 2026-06-03
 - 修复 Signals 区贡献图显示失败：移除失效的 Streak 卡片（demolab 公共实例 API/路由异常），恢复 Activity Graph 展示公开贡献趋势
 

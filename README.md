@@ -77,38 +77,76 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/fq-compressor">⭐ FASTQ Compressor</a></h4>
+      <h4><a href="https://github.com/open-genomics/fq-compressor">⭐ FASTQ Compressor</a></h4>
       <p>High-performance FASTQ compression with 3.97x ratio and O(1) random access. C++23, ABC+SCM algorithms.<br/>高性能 FASTQ 压缩：3.97x 压缩比，O(1) 随机访问，C++23 + oneTBB。</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/fq-compressor?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/stars/open-genomics/fq-compressor?style=flat-square&logo=github" alt="Stars" />
         <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/fastq-tools">⭐ FASTQ Tools</a></h4>
+      <h4><a href="https://github.com/open-genomics/fastq-tools">⭐ FASTQ Tools</a></h4>
       <p>High-performance FASTQ QC toolkit (stat/filter/trim); zero-copy I/O, TBB pipeline, C++23.<br/>高性能 FASTQ 质控工具：零拷贝 I/O、TBB 流水线、C++23。</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/fastq-tools?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/stars/open-genomics/fastq-tools?style=flat-square&logo=github" alt="Stars" />
         <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/micos-2024">⭐ MICOS-2024</a></h4>
+      <h4><a href="https://github.com/open-genomics/micos-2024">⭐ MICOS-2024</a></h4>
       <p>End-to-end Metagenomic Intelligence and Comprehensive Omics Suite (Mammoth Cup 2024)<br/>端到端宏基因组综合分析平台（猛犸杯 2024 参赛项目）</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/micos-2024?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/stars/open-genomics/micos-2024?style=flat-square&logo=github" alt="Stars" />
         <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/wiki-bioinfo">⭐ Wiki-Bioinfo</a></h4>
+      <h4><a href="https://github.com/open-genomics/wiki-bioinfo">⭐ Wiki-Bioinfo</a></h4>
       <p>Systematic knowledge base for bioinformatics (Chinese community)<br/>面向中文社区的生物信息学体系化知识库</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/wiki-bioinfo?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/stars/open-genomics/wiki-bioinfo?style=flat-square&logo=github" alt="Stars" />
         <img src="https://img.shields.io/badge/MDX-111827?style=flat-square" alt="MDX" />
       </p>
+    </td>
+  </tr>
+</table>
+
+<h4>🚀 AI Infra Portfolio / AI Infra 五仓作品集（open-infra-ai）</h4>
+
+<blockquote>
+  <b>Original, sole-authored engineering portfolio</b> — from CUDA kernels to a working inference engine, with tests, benchmarks & honest measurement records.<br/>
+  从 CUDA 算子到可运行推理引擎的个人原创作品集（含测试、基准与诚实记录的测量口径）。入口：<a href="https://github.com/open-infra-ai/aicl-lab">open-infra-ai/aicl-lab</a>
+</blockquote>
+
+<table>
+  <tr>
+    <td width="33%">
+      <h4><a href="https://github.com/open-infra-ai/cuda-foundations">🔷 cuda-foundations</a></h4>
+      <p>CUDA operator engineering path: SGEMM ladder to reusable inference components<br/>CUDA 算子工程学习路径（SGEMM 优化阶梯）</p>
+    </td>
+    <td width="33%">
+      <h4><a href="https://github.com/open-infra-ai/cuflash-attn">🔷 cuflash-attn</a></h4>
+      <p>FlashAttention fwd/bwd from scratch in CUDA C++ (FP16/BF16 WMMA)<br/>从零实现的 CUDA FlashAttention 前后向</p>
+    </td>
+    <td width="33%">
+      <h4><a href="https://github.com/open-infra-ai/triton-fused-ops">🔷 triton-fused-ops</a></h4>
+      <p>Triton kernel library (RMSNorm+RoPE / SwiGLU / FlashAttn / SGEMM) + torch.library registration<br/>Triton 算子库 + torch.library 注册</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%">
+      <h4><a href="https://github.com/open-infra-ai/tiny-llm">🧠 tiny-llm</a></h4>
+      <p>CUDA-native C++ inference engine: GGUF loading, W8A16 quantization, paged-KV strategy; 170 tests<br/>C++ 原生推理引擎：GGUF / W8A16 / 分页 KV</p>
+    </td>
+    <td width="33%">
+      <h4><a href="https://github.com/open-infra-ai/paged-infer">🧠 paged-infer</a></h4>
+      <p>PagedAttention-style paged KV + continuous batching control plane (Rust), e2e-verified vs llama.cpp<br/>分页 KV + Continuous Batching 控制面（Rust）</p>
+    </td>
+    <td width="33%">
+      <h4><a href="https://github.com/open-infra-ai/aicl-lab">📦 aicl-lab</a></h4>
+      <p>Portfolio landing page: evidence pack, benchmarks methodology & interview storytelling<br/>作品集入口：证据包、基准口径与项目讲述</p>
     </td>
   </tr>
 </table>
@@ -134,7 +172,7 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/wiki-bioinfo">🟢 Wiki-Bioinfo</a></h4>
+      <h4><a href="https://github.com/open-genomics/wiki-bioinfo">🟢 Wiki-Bioinfo</a></h4>
       <p>Systematic knowledge base for bioinformatics (Chinese community)<br/>面向中文社区的生物信息学体系化知识库</p>
       <p>
         <img src="https://img.shields.io/badge/MDX-111827?style=flat-square" alt="MDX" />
@@ -142,7 +180,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/micos-2024">🟢 MICOS-2024</a></h4>
+      <h4><a href="https://github.com/open-genomics/micos-2024">🟢 MICOS-2024</a></h4>
       <p>End-to-end Metagenomic Intelligence and Comprehensive Omics Suite<br/>端到端宏基因组综合分析平台（猛犸杯 2024）</p>
       <p>
         <img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R" />
@@ -152,7 +190,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/fq-compressor">🟢 FASTQ Compressor</a></h4>
+      <h4><a href="https://github.com/open-genomics/fq-compressor">🟢 FASTQ Compressor</a></h4>
       <p>High-performance FASTQ compression with 3.97x ratio and O(1) random access. C++23, ABC+SCM.<br/>高性能 FASTQ 压缩：3.97x 压缩比，O(1) 随机访问</p>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
@@ -160,7 +198,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/fastq-tools">🟢 FASTQ Tools</a></h4>
+      <h4><a href="https://github.com/open-genomics/fastq-tools">🟢 FASTQ Tools</a></h4>
       <p>High-performance FASTQ QC toolkit (stat/filter/trim); zero-copy I/O, TBB pipeline, C++23.<br/>高性能 FASTQ 质控工具：零拷贝 I/O、TBB 流水线、C++23</p>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B23-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++23" />
@@ -170,7 +208,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/awesome-bioinfo-algorithms">🟢 Awesome Bioinfo Algorithms</a></h4>
+      <h4><a href="https://github.com/open-genomics/awesome-bioinfo-algorithms">🟢 Awesome Bioinfo Algorithms</a></h4>
       <p>Curated bioinformatics algorithms knowledge base with complexity analysis, CLI tools, and bilingual docs.<br/>精选生物信息学算法知识库，含复杂度分析、CLI 维护工具与双语文档</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -186,11 +224,11 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/sgemm-optimization">🔷 SGEMM Optimization</a></h4>
-      <p>Bilingual CUDA SGEMM optimization tutorial, from naive kernels to Tensor Core WMMA.<br/>双语 CUDA SGEMM 优化教程与参考实现，从朴素内核到 Tensor Core WMMA</p>
+      <h4><a href="https://github.com/vibe-knight/cudaimg">🔷 CUDAImg</a></h4>
+      <p>CUDA image processing experiments: parallel filters and pipelines on GPU.<br/>CUDA 图像处理实验：GPU 并行滤波与流水线</p>
       <p>
         <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white" alt="CUDA" />
-        <img src="https://img.shields.io/badge/Tensor_Core-111827?style=flat-square&logo=nvidia&logoColor=white" alt="Tensor Core" />
+        <img src="https://img.shields.io/badge/Image_Processing-4CC9F0?style=flat-square" alt="Image Processing" />
       </p>
     </td>
     <td width="50%">
@@ -212,7 +250,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/compress-kit">🔷 Compress Kit</a></h4>
+      <h4><a href="https://github.com/vibe-knight/compress-kit">🔷 Compress Kit</a></h4>
       <p>Classic lossless compression algorithms in C++17, Go, and Rust with cross-language binary verification.<br/>经典无损压缩算法，支持 C++17、Go 和 Rust，跨语言二进制验证</p>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
@@ -222,15 +260,15 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/the-art-of-hpc-zh">🔷 The Art of HPC 中文翻译</a></h4>
-      <p>HPC textbooks covering MPI, OpenMP, CUDA, and Scientific Computing (CC-BY 4.0)<br/>《高性能计算艺术》系列中文翻译，涵盖 MPI、OpenMP、CUDA 与科学计算</p>
+      <h4><a href="https://github.com/LessUp/TensorTonic-Solutions">🔷 TensorTonic Solutions</a></h4>
+      <p>My solutions to TensorTonic problems (tensor/GPU computing drills).<br/>TensorTonic 题解（张量与 GPU 计算练习）</p>
       <p>
-        <img src="https://img.shields.io/badge/MPI-4CC9F0?style=flat-square" alt="MPI" />
-        <img src="https://img.shields.io/badge/OpenMP-76B900?style=flat-square" alt="OpenMP" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/Tensor-4CC9F0?style=flat-square" alt="Tensor" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/awesome-compression">🔷 Awesome Compression</a></h4>
+      <h4><a href="https://github.com/vibe-knight/awesome-compression">🔷 Awesome Compression</a></h4>
       <p>Compression Knowledge Base: Algorithm Theory, Performance Benchmarks & C++ Examples<br/>压缩算法知识库：原理、性能基准与 C++ 示例</p>
       <p>
         <img src="https://img.shields.io/badge/C%2B%2B17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++17" />
@@ -253,25 +291,25 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/cursor-rules">🟣 Cursor Rules</a></h4>
-      <p>Archive-grade .mdc rule library for Cursor AI — 26 production-ready rules<br/>归档级 Cursor .mdc 规则库 — 26 个生产就绪规则，低漂移设计</p>
+      <h4><a href="https://github.com/vibe-knight/bookmarks-manager">🟣 Bookmarks Manager</a></h4>
+      <p>Local-first bookmark manager with structured storage and import/export.<br/>本地优先的书签管理器：结构化存储与导入导出</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/cursor-rules?style=flat-square&logo=github" alt="Stars" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Local_First-2A9D8F?style=flat-square" alt="Local-first" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/awesome-claude-skills-zh">🟣 Awesome Claude Skills 中文</a></h4>
-      <p>A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows<br/>Claude Skills 精选列表：定制 Claude AI 工作流的技能、资源和工具合集</p>
+      <h4><a href="https://github.com/vibe-knight/brave-sync-notes">🟣 Brave Sync Notes</a></h4>
+      <p>Notes syncing utility built around Brave browser data.<br/>围绕 Brave 浏览器数据构建的笔记同步工具</p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        <img src="https://img.shields.io/badge/Claude-CC785C?style=flat-square" alt="Claude" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/Tooling-5E60CE?style=flat-square" alt="Tooling" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/bookmarks-cleaner">🟣 Bookmarks Cleaner</a></h4>
+      <h4><a href="https://github.com/vibe-knight/bookmarks-cleaner">🟣 Bookmarks Cleaner</a></h4>
       <p>Offline-first bookmark cleaner: rules-first, ML-assisted, LLM-optional<br/>智能书签清理与分类：规则+ML+LLM（可选）</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -281,7 +319,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/yolo-toys">🟣 YOLO-Toys</a></h4>
+      <h4><a href="https://github.com/vibe-knight/yolo-toys">🟣 YOLO-Toys</a></h4>
       <p>Multi-Model Real-Time Visual Recognition System with REST API and WebSocket Streaming<br/>多模型实时视觉识别系统，提供 REST API 和 WebSocket 流式推理</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -289,7 +327,7 @@
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/graph-viewer">🟣 Graph Viewer</a></h4>
+      <h4><a href="https://github.com/vibe-knight/graph-viewer">🟣 Graph Viewer</a></h4>
       <p>Privacy-first diagram editor with local WASM rendering, Kroki full mode, sharing, and export.<br/>隐私优先的图表编辑器：本地 WASM 渲染、Kroki 全模式、分享与导出</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
@@ -304,15 +342,15 @@
 <table>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/meta-human">🟣 Meta Human</a></h4>
+      <h4><a href="https://github.com/vibe-knight/meta-human">🟣 Meta Human</a></h4>
       <p>Browser-native 3D digital human engine with voice, vision & dialogue. Zero-config, offline-ready.<br/>浏览器原生 3D 数字人引擎，支持语音、视觉与对话。零配置、离线可用。</p>
       <p>
-        <img src="https://img.shields.io/github/stars/LessUp/meta-human?style=flat-square&logo=github" alt="Stars" />
+        <img src="https://img.shields.io/github/stars/vibe-knight/meta-human?style=flat-square&logo=github" alt="Stars" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
       </p>
     </td>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/webrtc">🟣 WebRTC Demo</a></h4>
+      <h4><a href="https://github.com/vibe-knight/webrtc-demo">🟣 WebRTC Demo</a></h4>
       <p>Lightweight WebRTC Demo: Go Signaling Server + Vanilla JavaScript Client, OpenSpec-Driven<br/>轻量级 WebRTC 演示：Go 信令服务 + 原生 JavaScript 客户端，OpenSpec 驱动开发</p>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
@@ -322,7 +360,7 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4><a href="https://github.com/LessUp/mind-gym">🟣 Mind Gym</a></h4>
+      <h4><a href="https://github.com/vibe-knight/mind-gym">🟣 Mind Gym</a></h4>
       <p>Browser-based memory training PWA with FSRS-4.5 spaced repetition, N-back training, and adaptive difficulty<br/>基于 FSRS-4.5 间隔重复、N-back 训练和自适应难度的浏览器记忆力训练 PWA</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
