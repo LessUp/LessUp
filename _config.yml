@@ -4,14 +4,15 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
-repository: LessUp/LessUp
+repository: holtwood/LessUp
 show_downloads: false
 
 # SEO & metadata
-url: https://lessup.github.io
+# 注意：LessUp 是仓库名，账号已由 LessUp 更名为 holtwood
+url: https://holtwood.github.io
 baseurl: /LessUp
 lang: en
-author: LessUp
+author: holtwood
 
 # Markdown rendering
 markdown: kramdown
