@@ -1,79 +1,67 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+> 本文件为 Claude Code CLI 提供项目配置。
 
-## Project Overview
+## 项目定位
 
-This is a **GitHub Profile Repository** for LessUp, an AI Infrastructure & HPC Developer. The repository serves as a personal homepage showcasing projects, experience, and technical expertise.
+**GitHub Profile 主页仓库**（账号 `holtwood`，仓库名 `LessUp`）—— 个人主页与成果展示，呈现 AI Infrastructure / HPC 方向的项目、经历与技术栈。
 
-## Repository Structure
+- 主页：<https://github.com/holtwood>
+- Pages 站点：<https://holtwood.github.io/LessUp/>
 
+## 仓库结构
+
+```text
+LessUp/
+├── README.md              # 主页展示页（GitHub Profile 渲染此文件）
+├── index.md               # GitHub Pages 站点入口
+├── _config.yml            # Jekyll 配置（cayman 主题 + SEO）
+├── CHANGELOG.md           # 变更记录（Keep a Changelog 格式）
+├── LICENSE                # MIT
+├── CLAUDE.md              # 本文件
+└── .github/workflows/
+    ├── pages.yml          # Jekyll 构建并部署 GitHub Pages
+    └── snake.yml          # 贡献热力图动画（每 6 小时更新至 output 分支）
 ```
-/home/shane/lessup/LessUp/
-├── README.md              # Main profile page (visual showcase)
-├── CHANGELOG.md           # Version history and updates
-└── .git/                  # Git repository
-```
 
-## Key Files
+## 关键文件
 
 ### README.md
-- Personal profile page with visual elements (badges, stats, project cards)
-- Contains sections: About, Now, Projects, Experience, Tech Stack, Stats, Contact
-- Uses GitHub profile README features (activity graphs, stats widgets, etc.)
-- **Note**: This is NOT a code file - it's a visual presentation document
+
+- 主页展示页，**不是代码文件**，而是视觉呈现文档
+- 大量使用徽章、统计组件、项目卡片等 GitHub Profile 特性
+- 章节：About / Now / Projects / Experience / Tech Stack / Stats / Contact
+- 中英双语：以英文为主，关键章节附中文
 
 ### CHANGELOG.md
-- Tracks changes to the profile page
-- Documents additions, modifications, and updates
-- Uses standard [Keep a Changelog](https://keepachangelog.com/) format
 
-## Development Workflow
+- 遵循 [Keep a Changelog](https://keepachangelog.com/) 格式，日期格式 `YYYY-MM-DD`
+- 所有对外可见的改动都应记录
 
-### Common Tasks
+## 工作流
 
-Since this is a static profile repository:
+### 更新主页内容
 
-1. **Updating Profile Content**
-   - Edit README.md to modify personal information, projects, or stats
-   - Follow the existing structure and visual formatting
-   - Update CHANGELOG.md with each modification
+1. 编辑 `README.md`
+2. 同步更新 `CHANGELOG.md`
+3. 提交推送 —— `pages.yml` 会自动重新构建并部署站点
 
-2. **Adding New Projects**
-   - Add project cards in the "Featured Projects" section
-   - Include badges for relevant technologies
-   - Update CHANGELOG.md
+### 无构建流程，但有 CI/CD
 
-3. **Updating Stats/Sections**
-   - Modify the About, Now, or Tech Stack sections as needed
-   - Ensure consistency with English/Chinese bilingual format
-   - Keep visual elements (badges, images) properly formatted
+本仓库没有构建、测试与包管理流程（无 `package.json`），但**有两个 workflow**：
 
-4. **Updating CHANGELOG**
-   - Add entries to CHANGELOG.md for all significant changes
-   - Follow the existing date format (YYYY-MM-DD)
-   - Briefly describe what was changed and why
+| Workflow | 触发 | 作用 |
+|----------|------|------|
+| `pages.yml` | push（`*.md` / `_config.yml` / `docs/**` 变更） | Jekyll 构建并部署 GitHub Pages |
+| `snake.yml` | 每 6 小时 + 手动 | 生成贡献热力图，推送到 `output` 分支 |
 
-### No Build Process
+## 注意事项
 
-This repository does not include:
-- Build scripts or compilation
-- Testing frameworks
-- CI/CD pipelines
-- Package management (no package.json, requirements.txt, etc.)
+1. **展示名 ≠ 仓库名**：`_config.yml` 的 `title` / `author` 是展示名，`baseurl: /LessUp` 是仓库名。账号已由 `LessUp` 更名为 `holtwood`，`repository` / `url` 字段须与当前账号一致。
+2. **workflow 中的账号名必须用当前名**：`snake.yml` 的 `github_user_name` 若写成旧名 `LessUp`，GitHub API 会报 `Could not resolve to a User with the login of 'LessUp'`，导致该 workflow 每次运行都失败。
+3. **徽章与统计组件依赖第三方服务**（shields.io、stats 卡片等），展示异常时优先检查服务可用性。
+4. **`output` 分支由机器人维护**，不要手动提交。
 
-## Important Notes
+## 提交规范
 
-- **Language**: The README uses English as primary language with Chinese translations for key sections
-- **Visual Elements**: README heavily relies on images, badges, and GitHub widgets
-- **Content Type**: This is content/documentation, not application code
-- **Changes**: All modifications should be logged in CHANGELOG.md
-
-## Git Workflow
-
-Standard git operations:
-- `git add .` - Stage changes
-- `git commit -m "message"` - Commit changes
-- `git push` - Push to remote
-
-Remember to update CHANGELOG.md before committing significant changes.
+使用约定式提交：`feat` / `fix` / `docs` / `chore` / `ci` / `style`
